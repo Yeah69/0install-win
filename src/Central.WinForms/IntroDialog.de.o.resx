@@ -1,64 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -117,22 +58,355 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tabPageAppList.Text" xml:space="preserve">
-    <value>Meine Apps</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
   </data>
-  <data name="tabPageCatalog.Text" xml:space="preserve">
-    <value>Katalog</value>
+  <data name="&gt;&gt;$this.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
   </data>
-  <data name="labelVideo.Text" xml:space="preserve">
-    <value>Ein kurzes Einführungsvideo</value>
+  <data name="&gt;&gt;arrowMyApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
   </data>
-  <data name="buttonReplay.Text" xml:space="preserve">
-    <value>&amp;Erneut abspielen</value>
+  <data name="&gt;&gt;arrowMyApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
   </data>
-  <data name="buttonClose.Text" xml:space="preserve">
+  <data name="&gt;&gt;arrowMyApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;arrowMyApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;arrowSearch.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;arrowSearch.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;arrowSearch.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;arrowSearch.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonReplay.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonReplay.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonReplay.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonReplay.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSubtitles.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSubtitles.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSubtitles.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSubtitles.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelVideo.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelVideo.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelVideo.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelVideo.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControlApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.ClientSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Einführung</value>
+  </data>
+  <data name="arrowMyApps.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowMyApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowMyApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowMyApps.SizeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowMyApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowMyApps.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowSearch.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowSearch.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowSearch.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowSearch.SizeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowSearch.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="arrowSearch.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>&amp;Schließen</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Einführung</value>
+  <data name="buttonClose.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonReplay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonReplay.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonReplay.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonReplay.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonReplay.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonReplay.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonReplay.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>&amp;Erneut abspielen</value>
+  </data>
+  <data name="buttonReplay.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelSubtitles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelSubtitles.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelSubtitles.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelSubtitles.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelSubtitles.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelSubtitles.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelSubtitles.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelSubtitles.TextAlign" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelVideo.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelVideo.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelVideo.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelVideo.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelVideo.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelVideo.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Ein kurzes Einführungsvideo</value>
+  </data>
+  <data name="labelVideo.TextAlign" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabControlApps.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabControlApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabControlApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabControlApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.Padding" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Meine Apps</value>
+  </data>
+  <data name="tabPageCatalog.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.Padding" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Katalog</value>
+  </data>
+  <data name="tileListCatalog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListCatalog.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListCatalog.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListMyApps.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListMyApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListMyApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListMyApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
   </data>
 </root>

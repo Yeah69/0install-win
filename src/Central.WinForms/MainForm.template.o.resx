@@ -1,0 +1,841 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="menuUpdateAll.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>549, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <metadata name="menuSync.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>794, 17</value>
+  </metadata>
+  <metadata name="menuMoreApps.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1254, 17</value>
+  </metadata>
+  <metadata name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1156, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;$this.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonAddCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonAddCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonAddFeed.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonAddFeed.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonCommandLine.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonCommandLine.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonDocumentation.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonDocumentation.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonFeedEditor.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonFeedEditor.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonIntro.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonIntro.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonMoreApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonMoreApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonMoreApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonMoreApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonPortableCreator.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonPortableCreator.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRefreshCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRefreshCatalog.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRefreshCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRefreshCatalog.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSearch.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSearch.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonStoreManage.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonStoreManage.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSync.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSync.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSync.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSync.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSync2.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSync2.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSyncSetup.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSyncSetup.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSyncTroubleshoot.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSyncTroubleshoot.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonTools.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonTools.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonUpdateAll.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonUpdateAll.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonUpdateAll.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonUpdateAll.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonUpdateAll2.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonUpdateAll2.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonUpdateAllClean.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonUpdateAllClean.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLastCatalogError.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLastCatalogError.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLastCatalogError.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLastCatalogError.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLoadingCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLoadingCatalog.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLoadingCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLoadingCatalog.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNotificationBar.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNotificationBar.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNotificationBar.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNotificationBar.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;menuMoreApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;menuMoreApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;menuSync.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;menuSync.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;menuUpdateAll.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;menuUpdateAll.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelBottom.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;rootTable.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;rootTable.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;rootTable.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;rootTable.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;separator1.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;separator1.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControlApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;toolStrip.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.ClientSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.Icon" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonAddCatalog.Image" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonAddCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonAddCatalog.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonAddFeed.Image" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonAddFeed.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonAddFeed.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonCommandLine.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonCommandLine.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonDocumentation.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonDocumentation.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonFeedEditor.Image" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonFeedEditor.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonFeedEditor.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonHelp.ImageTransparentColor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonHelp.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonHelp.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonIntro.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonIntro.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonMoreApps.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonMoreApps.AutoSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonMoreApps.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonMoreApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonMoreApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonMoreApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonMoreApps.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonOptions.ImageTransparentColor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonOptions.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonOptions.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonPortableCreator.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonPortableCreator.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefreshCatalog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefreshCatalog.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefreshCatalog.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefreshCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefreshCatalog.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefreshCatalog.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSearch.Image" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSearch.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSearch.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonStoreManage.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonStoreManage.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync.AutoSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync2.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync2.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSync2.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSyncSetup.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSyncSetup.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSyncTroubleshoot.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonSyncTroubleshoot.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonTools.ImageTransparentColor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonTools.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonTools.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll.AutoSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll2.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll2.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAll2.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAllClean.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonUpdateAllClean.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLastCatalogError.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLastCatalogError.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLastCatalogError.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLastCatalogError.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLastCatalogError.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLastCatalogError.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLastCatalogError.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLastCatalogError.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.AutoSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoadingCatalog.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.TextAlign" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelNotificationBar.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelVersion.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelVersion.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="menuMoreApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="menuSync.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="menuUpdateAll.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="panelBottom.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="panelBottom.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="panelBottom.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="panelBottom.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rootTable.ColumnCount" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rootTable.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rootTable.LayoutSettings" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rootTable.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rootTable.RowCount" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rootTable.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rootTable.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="separator1.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabControlApps.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabControlApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabControlApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabControlApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.Padding" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageAppList.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.Padding" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListCatalog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListCatalog.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListCatalog.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListMyApps.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListMyApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListMyApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tileListMyApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="toolStrip.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="toolStrip.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="toolStrip.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="toolStrip.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+</root>

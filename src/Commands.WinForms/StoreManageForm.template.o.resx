@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;$this.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemove.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemove.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemove.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemove.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRunAsAdmin.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRunAsAdmin.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRunAsAdmin.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRunAsAdmin.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonVerify.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonVerify.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonVerify.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonVerify.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCheckedSize.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCheckedSize.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCheckedSize.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCheckedSize.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCurrentSize.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCurrentSize.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCurrentSize.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCurrentSize.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLoading.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLoading.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLoading.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLoading.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelTotalSize.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelTotalSize.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelTotalSize.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelTotalSize.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;propertyGrid.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;propertyGrid.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;propertyGrid.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;propertyGrid.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;splitContainer.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelSize.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelSize.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelSize.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelSize.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textCheckedSize.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textCheckedSize.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textCheckedSize.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textCheckedSize.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textCurrentSize.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textCurrentSize.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textCurrentSize.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textCurrentSize.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textTotalSize.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textTotalSize.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textTotalSize.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textTotalSize.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.ClientSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.Icon" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="$this.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonClose.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefresh.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefresh.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefresh.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefresh.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRefresh.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRemove.Enabled" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRemove.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRemove.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRemove.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRemove.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRunAsAdmin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRunAsAdmin.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRunAsAdmin.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRunAsAdmin.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRunAsAdmin.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonRunAsAdmin.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonVerify.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonVerify.Enabled" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonVerify.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonVerify.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonVerify.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="buttonVerify.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCheckedSize.AutoSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCheckedSize.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCheckedSize.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCheckedSize.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCheckedSize.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCheckedSize.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCheckedSize.TextAlign" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCurrentSize.AutoSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCurrentSize.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCurrentSize.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCurrentSize.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCurrentSize.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCurrentSize.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelCurrentSize.TextAlign" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoading.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoading.AutoSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoading.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoading.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoading.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoading.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelLoading.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelTotalSize.AutoSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelTotalSize.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelTotalSize.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelTotalSize.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelTotalSize.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelTotalSize.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="labelTotalSize.TextAlign" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="propertyGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="propertyGrid.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="propertyGrid.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="propertyGrid.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="splitContainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="splitContainer.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="splitContainer.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="splitContainer.SplitterDistance" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="splitContainer.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tableLayoutPanelSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tableLayoutPanelSize.ColumnCount" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tableLayoutPanelSize.LayoutSettings" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tableLayoutPanelSize.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tableLayoutPanelSize.RowCount" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tableLayoutPanelSize.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="tableLayoutPanelSize.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCheckedSize.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCheckedSize.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCheckedSize.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCheckedSize.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCheckedSize.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCurrentSize.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCurrentSize.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCurrentSize.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCurrentSize.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textCurrentSize.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textTotalSize.Dock" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textTotalSize.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textTotalSize.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textTotalSize.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="textTotalSize.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value></value>
+  </data>
+</root>

@@ -1,104 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,88 +58,985 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="linkSyncAccount.Text" xml:space="preserve">
-    <value>Διαχείριση του λογαριασμού</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="implDirBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelSyncCryptoKey.Text" xml:space="preserve">
-    <value>Crypto κλειδί:</value>
+  <data name="&gt;&gt;$this.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelSyncPassword.Text" xml:space="preserve">
-    <value>Κωδικός:</value>
+  <data name="&gt;&gt;buttonAddCatalogSource.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelServer.Text" xml:space="preserve">
-    <value>Διακομιστής:</value>
+  <data name="&gt;&gt;buttonAddCatalogSource.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelSyncUsername.Text" xml:space="preserve">
-    <value>Όνομα Χρήστη:</value>
+  <data name="&gt;&gt;buttonAddCatalogSource.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxHelpWithTesting.Text" xml:space="preserve">
-    <value>Χρησιμοποιήστε beta εκδόσεις των εφαρμογών όταν είναι διαθέσιμη</value>
+  <data name="&gt;&gt;buttonAddCatalogSource.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="radioNetworkUseOffline.Text" xml:space="preserve">
-    <value>Λειτουργία εκτός σύνδεσης (μην κατεβάσετε τίποτα)</value>
+  <data name="&gt;&gt;buttonAddImplDir.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="radioNetworkUseMinimal.Text" xml:space="preserve">
-    <value>Ελάχιστη λειτουργία (μόνο λήψη όταν είναι απολύτως απαραίτητη)</value>
+  <data name="&gt;&gt;buttonAddImplDir.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="radioNetworkUseFull.Text" xml:space="preserve">
-    <value>Πλήρης λειτουργία (κατεβάστε πάντα την καλύτερη εκδοχή)</value>
+  <data name="&gt;&gt;buttonAddImplDir.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="groupNetworkUse.Text" xml:space="preserve">
-    <value>Χρήση του δικτύου</value>
+  <data name="&gt;&gt;buttonAddImplDir.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageUpdates.Text" xml:space="preserve">
-    <value>Ενημερώσεις</value>
+  <data name="&gt;&gt;buttonAdvancedShow.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonRemoveImplDir.Text" xml:space="preserve">
-    <value>Αφαίρεση</value>
+  <data name="&gt;&gt;buttonAdvancedShow.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonGoToImplDir.Text" xml:space="preserve">
-    <value>Μετάβαση στο</value>
+  <data name="&gt;&gt;buttonAdvancedShow.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonAddImplDir.Text" xml:space="preserve">
+  <data name="&gt;&gt;buttonAdvancedShow.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonGoToCatalogSource.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonGoToCatalogSource.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonGoToCatalogSource.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonGoToCatalogSource.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonGoToImplDir.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonGoToImplDir.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonGoToImplDir.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonGoToImplDir.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveCatalogSource.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveCatalogSource.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveCatalogSource.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveCatalogSource.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveImplDir.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveImplDir.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveImplDir.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveImplDir.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTrustedKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTrustedKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTrustedKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTrustedKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonResetCatalogSources.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonResetCatalogSources.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonResetCatalogSources.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonResetCatalogSources.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSyncCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSyncCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSyncCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonSyncCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoApproveKeys.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoApproveKeys.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoApproveKeys.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoApproveKeys.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxHelpWithTesting.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxHelpWithTesting.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxHelpWithTesting.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxHelpWithTesting.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupCatalogSources.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupCatalogSources.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupCatalogSources.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupCatalogSources.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupFreshness.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupFreshness.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupFreshness.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupFreshness.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupImplDirs.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupImplDirs.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupImplDirs.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupImplDirs.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupNetworkUse.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupNetworkUse.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupNetworkUse.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupNetworkUse.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupStability.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupStability.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupTrustedKeys.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupTrustedKeys.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupTrustedKeys.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupTrustedKeys.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;implDirBrowserDialog.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;implDirBrowserDialog.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAdvancedWarning.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAdvancedWarning.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAdvancedWarning.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAdvancedWarning.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLanguage.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLanguage.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLanguage.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLanguage.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncPassword.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncPassword.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncPassword.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncPassword.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncUsername.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncUsername.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncUsername.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSyncUsername.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkSyncAccount.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkSyncAccount.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkSyncAccount.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkSyncAccount.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxCatalogSources.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxCatalogSources.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxCatalogSources.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxCatalogSources.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxImplDirs.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxImplDirs.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxImplDirs.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxImplDirs.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelTrustedKeys.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelTrustedKeys.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelTrustedKeys.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelTrustedKeys.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;propertyGridAdvanced.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;propertyGridAdvanced.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;propertyGridAdvanced.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;propertyGridAdvanced.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseFull.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseFull.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseFull.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseFull.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseMinimal.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseMinimal.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseMinimal.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseMinimal.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseOffline.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseOffline.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseOffline.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;radioNetworkUseOffline.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabOptions.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAdvanced.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAdvanced.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAdvanced.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAdvanced.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageLanguage.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageLanguage.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageLanguage.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageLanguage.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageStorage.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageStorage.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageStorage.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageStorage.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageSync.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageSync.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageSync.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageSync.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageTrust.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageTrust.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageTrust.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageTrust.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageUpdates.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageUpdates.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageUpdates.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageUpdates.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncPassword.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncPassword.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncPassword.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncPassword.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncUsername.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncUsername.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncUsername.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxSyncUsername.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;timespanFreshness.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;timespanFreshness.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;timespanFreshness.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;timespanFreshness.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.StartPosition" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install διαμόρφωση</value>
+  </data>
+  <data name="buttonAddCatalogSource.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddCatalogSource.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddCatalogSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddCatalogSource.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddCatalogSource.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
     <value>Προσθήκη</value>
   </data>
-  <data name="groupImplDirs.Text" xml:space="preserve">
-    <value>καταλόγος μνήμης cache </value>
+  <data name="buttonAddImplDir.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageStorage.Text" xml:space="preserve">
-    <value>Αποθήκευση</value>
+  <data name="buttonAddImplDir.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonResetCatalogSources.Text" xml:space="preserve">
+  <data name="buttonAddImplDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddImplDir.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddImplDir.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="buttonAdvancedShow.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAdvancedShow.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAdvancedShow.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAdvancedShow.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAdvancedShow.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Εμφάνιση επιλογών για προχωρημένους</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToCatalogSource.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToCatalogSource.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToCatalogSource.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToCatalogSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToCatalogSource.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToCatalogSource.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Μετάβαση στο</value>
+  </data>
+  <data name="buttonGoToImplDir.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToImplDir.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToImplDir.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToImplDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToImplDir.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToImplDir.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonGoToImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Μετάβαση στο</value>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveCatalogSource.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveCatalogSource.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveCatalogSource.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveCatalogSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveCatalogSource.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveCatalogSource.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="buttonRemoveImplDir.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveImplDir.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveImplDir.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveImplDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveImplDir.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveImplDir.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="buttonRemoveTrustedKey.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveTrustedKey.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveTrustedKey.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveTrustedKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveTrustedKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveTrustedKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveTrustedKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="buttonResetCatalogSources.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetCatalogSources.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetCatalogSources.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetCatalogSources.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetCatalogSources.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetCatalogSources.Text" type="System.Drawing.Point, System.Drawing">
     <value>Επαναφορά </value>
   </data>
-  <data name="buttonRemoveCatalogSource.Text" xml:space="preserve">
-    <value>Αφαίρεση</value>
+  <data name="buttonSyncCryptoKey.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonGoToCatalogSource.Text" xml:space="preserve">
-    <value>Μετάβαση στο</value>
+  <data name="buttonSyncCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonAddCatalogSource.Text" xml:space="preserve">
-    <value>Προσθήκη</value>
+  <data name="buttonSyncCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="groupCatalogSources.Text" xml:space="preserve">
-    <value>Κατάλογος και πηγές</value>
+  <data name="buttonSyncCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageCatalog.Text" xml:space="preserve">
-    <value>Κατάλογος</value>
+  <data name="buttonSyncCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxAutoApproveKeys.Text" xml:space="preserve">
+  <data name="checkBoxAutoApproveKeys.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoApproveKeys.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoApproveKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoApproveKeys.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoApproveKeys.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoApproveKeys.Text" type="System.Drawing.Point, System.Drawing">
     <value>Αυτόματη έγκριση νέων κλειδιών (αν είναι γνωστή από το κλειδί διακομιστή)</value>
   </data>
-  <data name="buttonRemoveTrustedKey.Text" xml:space="preserve">
-    <value>Αφαίρεση</value>
+  <data name="checkBoxHelpWithTesting.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="groupTrustedKeys.Text" xml:space="preserve">
+  <data name="checkBoxHelpWithTesting.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxHelpWithTesting.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxHelpWithTesting.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxHelpWithTesting.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Χρησιμοποιήστε beta εκδόσεις των εφαρμογών όταν είναι διαθέσιμη</value>
+  </data>
+  <data name="comboBoxLanguage.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="comboBoxLanguage.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="comboBoxLanguage.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupCatalogSources.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupCatalogSources.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupCatalogSources.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupCatalogSources.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupCatalogSources.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Κατάλογος και πηγές</value>
+  </data>
+  <data name="groupFreshness.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupFreshness.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupFreshness.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupFreshness.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupFreshness.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupImplDirs.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupImplDirs.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupImplDirs.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupImplDirs.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupImplDirs.Text" type="System.Drawing.Point, System.Drawing">
+    <value>καταλόγος μνήμης cache </value>
+  </data>
+  <data name="groupNetworkUse.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupNetworkUse.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupNetworkUse.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupNetworkUse.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupNetworkUse.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Χρήση του δικτύου</value>
+  </data>
+  <data name="groupStability.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupStability.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupStability.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupStability.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupStability.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupTrustedKeys.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupTrustedKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupTrustedKeys.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupTrustedKeys.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupTrustedKeys.Text" type="System.Drawing.Point, System.Drawing">
     <value>Αξιόπιστα κλειδιά</value>
   </data>
-  <data name="tabPageTrust.Text" xml:space="preserve">
-    <value>Αξιόπιστα κλειδιά</value>
+  <data name="implDirBrowserDialog.Description" type="System.Drawing.Point, System.Drawing">
+    <value>Επιλέξτε ή δημιουργήστε ένα κατάλογο που θα χρησιμοποιηθεί σαν κρυφή μνήμη της εφαρμογής.</value>
   </data>
-  <data name="tabPageSync.Text" xml:space="preserve">
-    <value>Συγχρονισμος</value>
+  <data name="labelAdvancedWarning.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelLanguage.Text" xml:space="preserve">
+  <data name="labelAdvancedWarning.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAdvancedWarning.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAdvancedWarning.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAdvancedWarning.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Προσοχή: Η αλλαγή αυτών των επιλογών μπορεί να αποτρέψει Zero Install  την σωστή λειτουργία του.</value>
+  </data>
+  <data name="labelLanguage.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLanguage.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLanguage.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLanguage.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLanguage.Text" type="System.Drawing.Point, System.Drawing">
     <value>Αυτό ελέγχει τη γλώσσα του:
 - Zero Install
 - εφαρμογές που έχουν ληφθεί από Zero Install
@@ -207,22 +1045,352 @@
 - μεταφράσεις δεν είναι διαθέσιμη για όλες τις γλώσσες.
 - Πρέπει να ξαναξεκινήσετε Zero Install για γλωσσικές αλλαγές για να εφαρμοστείτε.</value>
   </data>
-  <data name="tabPageLanguage.Text" xml:space="preserve">
-    <value>γλώσσα</value>
+  <data name="labelServer.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonAdvancedShow.Text" xml:space="preserve">
-    <value>Εμφάνιση επιλογών για προχωρημένους</value>
+  <data name="labelServer.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelAdvancedWarning.Text" xml:space="preserve">
-    <value>Προσοχή: Η αλλαγή αυτών των επιλογών μπορεί να αποτρέψει Zero Install  την σωστή λειτουργία του.</value>
+  <data name="labelServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageAdvanced.Text" xml:space="preserve">
+  <data name="labelServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Διακομιστής:</value>
+  </data>
+  <data name="labelSyncCryptoKey.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto κλειδί:</value>
+  </data>
+  <data name="labelSyncPassword.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncPassword.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncPassword.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Κωδικός:</value>
+  </data>
+  <data name="labelSyncUsername.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncUsername.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncUsername.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSyncUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Όνομα Χρήστη:</value>
+  </data>
+  <data name="linkSyncAccount.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkSyncAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkSyncAccount.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkSyncAccount.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkSyncAccount.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Διαχείριση του λογαριασμού</value>
+  </data>
+  <data name="listBoxCatalogSources.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxCatalogSources.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxCatalogSources.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxCatalogSources.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxImplDirs.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxImplDirs.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxImplDirs.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxImplDirs.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="panelTrustedKeys.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="panelTrustedKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="panelTrustedKeys.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="panelTrustedKeys.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="propertyGridAdvanced.Dock" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="propertyGridAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="propertyGridAdvanced.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="propertyGridAdvanced.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="propertyGridAdvanced.Visible" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseFull.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseFull.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseFull.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseFull.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseFull.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Πλήρης λειτουργία (κατεβάστε πάντα την καλύτερη εκδοχή)</value>
+  </data>
+  <data name="radioNetworkUseMinimal.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseMinimal.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseMinimal.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseMinimal.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseMinimal.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ελάχιστη λειτουργία (μόνο λήψη όταν είναι απολύτως απαραίτητη)</value>
+  </data>
+  <data name="radioNetworkUseOffline.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseOffline.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseOffline.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseOffline.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="radioNetworkUseOffline.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Λειτουργία εκτός σύνδεσης (μην κατεβάσετε τίποτα)</value>
+  </data>
+  <data name="tabOptions.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabOptions.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabOptions.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAdvanced.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAdvanced.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAdvanced.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAdvanced.Text" type="System.Drawing.Point, System.Drawing">
     <value>Προχωρημένη</value>
   </data>
-  <data name="implDirBrowserDialog.Description" xml:space="preserve">
-    <value>Επιλέξτε ή δημιουργήστε ένα κατάλογο που θα χρησιμοποιηθεί σαν κρυφή μνήμη της εφαρμογής.</value>
+  <data name="tabPageCatalog.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Zero Install διαμόρφωση</value>
+  <data name="tabPageCatalog.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageCatalog.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Κατάλογος</value>
+  </data>
+  <data name="tabPageLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageLanguage.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageLanguage.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageLanguage.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageLanguage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>γλώσσα</value>
+  </data>
+  <data name="tabPageStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageStorage.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageStorage.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageStorage.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageStorage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="tabPageSync.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageSync.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageSync.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageSync.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageSync.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Συγχρονισμος</value>
+  </data>
+  <data name="tabPageTrust.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageTrust.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageTrust.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageTrust.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageTrust.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Αξιόπιστα κλειδιά</value>
+  </data>
+  <data name="tabPageUpdates.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageUpdates.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageUpdates.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageUpdates.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageUpdates.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ενημερώσεις</value>
+  </data>
+  <data name="textBoxSyncCryptoKey.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncPassword.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncPassword.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncPassword.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncServer.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncUsername.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncUsername.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxSyncUsername.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="timespanFreshness.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="timespanFreshness.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="timespanFreshness.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="timespanFreshness.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
 </root>

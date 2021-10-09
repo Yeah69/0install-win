@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>IntroDialog</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;$this.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;arrowMyApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>arrowMyApps</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;arrowMyApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;arrowMyApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;arrowMyApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;arrowSearch.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>arrowSearch</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;arrowSearch.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;arrowSearch.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;arrowSearch.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>buttonClose</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>5</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonReplay.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>buttonReplay</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonReplay.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonReplay.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonReplay.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>6</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelSubtitles.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>labelSubtitles</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelSubtitles.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelSubtitles.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelSubtitles.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelVideo.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>labelVideo</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelVideo.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelVideo.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelVideo.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>4</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tabControlApps</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabControlApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabControlApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>2</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tabPageAppList</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tabControlApps</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageAppList.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tabPageCatalog</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tabControlApps</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageCatalog.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tileListCatalog</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tabPageCatalog</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>ZeroInstall.Central.WinForms.AppTileList, ZeroInstall, Version=2.7.0.0, Culture=neutral, PublicKeyToken=3090a828a7702cec</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tileListCatalog.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Name" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tileListMyApps</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Parent" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>tabPageAppList</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.Type" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>ZeroInstall.Central.WinForms.AppTileList, ZeroInstall, Version=2.7.0.0, Culture=neutral, PublicKeyToken=3090a828a7702cec</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tileListMyApps.ZOrder" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>6, 13</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="$this.ClientSize" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>380, 275</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>CenterParent</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="$this.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Einführung</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="arrowMyApps.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>NoControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowMyApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>28, 0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowMyApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>16, 16</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowMyApps.SizeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Zoom</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowMyApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>6</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowMyApps.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>False</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowSearch.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>NoControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowSearch.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>0, 42</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowSearch.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>16, 16</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowSearch.SizeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Zoom</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowSearch.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>7</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="arrowSearch.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>False</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonClose.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Microsoft Sans Serif, 12pt</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonClose.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>NoControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonClose.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>193, 105</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonClose.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>166, 31</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonClose.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>5</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonClose.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>&amp;Schließen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonClose.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>False</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonReplay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonReplay.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Microsoft Sans Serif, 12pt</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonReplay.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>NoControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonReplay.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>21, 105</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonReplay.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>166, 31</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonReplay.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>4</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonReplay.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>&amp;Erneut abspielen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonReplay.Visible" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>False</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSubtitles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSubtitles.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Microsoft Sans Serif, 12pt</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSubtitles.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>NoControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSubtitles.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>12, 219</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSubtitles.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>356, 47</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSubtitles.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>2</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSubtitles.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>(Subtitles)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSubtitles.TextAlign" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>MiddleCenter</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelVideo.Font" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelVideo.ImeMode" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>NoControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelVideo.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>12, 12</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelVideo.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>352, 204</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelVideo.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelVideo.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Ein kurzes Einführungsvideo</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelVideo.TextAlign" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>MiddleCenter</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabControlApps.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabControlApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>16, 16</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabControlApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>352, 200</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabControlApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageAppList.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>4, 22</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageAppList.Padding" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageAppList.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>344, 174</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageAppList.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageAppList.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Meine Apps</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="tabPageCatalog.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>4, 22</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageCatalog.Padding" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>344, 174</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageCatalog.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageCatalog.Text" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Katalog</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="tileListCatalog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tileListCatalog.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>3, 3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tileListCatalog.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>335, 172</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tileListCatalog.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tileListMyApps.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tileListMyApps.Location" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>3, 3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tileListMyApps.Size" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>335, 168</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tileListMyApps.TabIndex" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+</root>

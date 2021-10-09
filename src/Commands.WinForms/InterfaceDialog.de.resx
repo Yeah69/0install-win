@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dataColumnVersion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnReleased.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnStability.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnArchitecture.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnNotes.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnSource.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Drawing.Point, System.Drawing">
+    <value>InterfaceDialog</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;$this.Type" type="System.Drawing.Point, System.Drawing">
+    <value>NanoByte.Common.Controls.OKCancelDialog, NanoByte.Common.WinForms, Version=2.4.2.0, Culture=neutral, PublicKeyToken=3090a828a7702cec</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonAddFeed.Name" type="System.Drawing.Point, System.Drawing">
+    <value>buttonAddFeed</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonAddFeed.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageFeeds</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonAddFeed.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonAddFeed.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonApply.Name" type="System.Drawing.Point, System.Drawing">
+    <value>buttonApply</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonApply.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonApply.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonApply.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>2</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" type="System.Drawing.Point, System.Drawing">
+    <value>buttonCancel</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" type="System.Drawing.Point, System.Drawing">
+    <value>buttonOK</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonRemoveFeed.Name" type="System.Drawing.Point, System.Drawing">
+    <value>buttonRemoveFeed</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonRemoveFeed.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageFeeds</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonRemoveFeed.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;buttonRemoveFeed.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;checkBoxShowAllVersions.Name" type="System.Drawing.Point, System.Drawing">
+    <value>checkBoxShowAllVersions</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;checkBoxShowAllVersions.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageVersions</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;checkBoxShowAllVersions.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;checkBoxShowAllVersions.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;comboBoxStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value>comboBoxStability</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;comboBoxStability.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageVersions</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;comboBoxStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;comboBoxStability.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>2</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnArchitecture.Name" type="System.Drawing.Point, System.Drawing">
+    <value>dataColumnArchitecture</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnArchitecture.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnNotes.Name" type="System.Drawing.Point, System.Drawing">
+    <value>dataColumnNotes</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnNotes.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnReleased.Name" type="System.Drawing.Point, System.Drawing">
+    <value>dataColumnReleased</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnReleased.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnSource.Name" type="System.Drawing.Point, System.Drawing">
+    <value>dataColumnSource</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnSource.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value>dataColumnStability</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnUserStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value>dataColumnUserStability</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnUserStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnVersion.Name" type="System.Drawing.Point, System.Drawing">
+    <value>dataColumnVersion</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataColumnVersion.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataGridVersions.Name" type="System.Drawing.Point, System.Drawing">
+    <value>dataGridVersions</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataGridVersions.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageVersions</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataGridVersions.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;dataGridVersions.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value>labelStability</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelStability.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageVersions</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;labelStability.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;listBoxFeeds.Name" type="System.Drawing.Point, System.Drawing">
+    <value>listBoxFeeds</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;listBoxFeeds.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageFeeds</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;listBoxFeeds.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;listBoxFeeds.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>2</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" type="System.Drawing.Point, System.Drawing">
+    <value>tabControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>$this</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageFeeds.Name" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageFeeds</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageFeeds.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageFeeds.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageFeeds.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageVersions.Name" type="System.Drawing.Point, System.Drawing">
+    <value>tabPageVersions</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageVersions.Parent" type="System.Drawing.Point, System.Drawing">
+    <value>tabControl</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageVersions.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;tabPageVersions.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" type="System.Drawing.Point, System.Drawing">
+    <value>toolTip</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" type="System.Drawing.Point, System.Drawing">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.Point, System.Drawing">
+    <value>6, 13</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Point, System.Drawing">
+    <value>734, 345</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Point, System.Drawing">
+    <value>400, 220</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="$this.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Interface Eigenschaften</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonAddFeed.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value>Bottom, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonAddFeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 237</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonAddFeed.Size" type="System.Drawing.Point, System.Drawing">
+    <value>75, 23</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonAddFeed.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonAddFeed.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Hinzufügen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonAddFeed.ToolTip" type="System.Drawing.Point, System.Drawing">
+    <value>Fügt eine neue Implementierungsquelle für dieses Interface hinzu</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonApply.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value>Bottom, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 310</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonApply.Size" type="System.Drawing.Point, System.Drawing">
+    <value>85, 23</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonApply.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>999</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonApply.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Übernehmen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 310</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 310</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonRemoveFeed.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value>Bottom, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonRemoveFeed.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value>False</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonRemoveFeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 237</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonRemoveFeed.Size" type="System.Drawing.Point, System.Drawing">
+    <value>75, 23</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonRemoveFeed.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>2</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonRemoveFeed.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Entfernen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonRemoveFeed.ToolTip" type="System.Drawing.Point, System.Drawing">
+    <value>Entfern eine Implementierungsquelle für dieses Interface</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="checkBoxShowAllVersions.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value>Top, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="checkBoxShowAllVersions.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value>True</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="checkBoxShowAllVersions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 10</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="checkBoxShowAllVersions.Size" type="System.Drawing.Point, System.Drawing">
+    <value>108, 17</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="checkBoxShowAllVersions.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>4</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="checkBoxShowAllVersions.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zeige alle &amp;Versionen an</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="checkBoxShowAllVersions.ToolTip" type="System.Drawing.Point, System.Drawing">
+    <value>Versionen anzeigen, die auf diesem System nicht unterstützt werden</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="comboBoxStability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 6</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="comboBoxStability.Size" type="System.Drawing.Point, System.Drawing">
+    <value>120, 21</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="comboBoxStability.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="comboBoxStability.ToolTip" type="System.Drawing.Point, System.Drawing">
+    <value>Bestimmt welche Stabilitätsbewertung als "beste" angesehen wird</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="dataColumnArchitecture.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Architektur</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="dataColumnArchitecture.Width" type="System.Drawing.Point, System.Drawing">
+    <value>89</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataColumnNotes.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Hinweise</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="dataColumnNotes.Width" type="System.Drawing.Point, System.Drawing">
+    <value>60</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataColumnReleased.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Veröffentlicht</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="dataColumnReleased.Width" type="System.Drawing.Point, System.Drawing">
+    <value>77</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataColumnSource.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Quelle</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="dataColumnSource.MinimumWidth" type="System.Drawing.Point, System.Drawing">
+    <value>50</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataColumnStability.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Stabilität</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="dataColumnStability.MinimumWidth" type="System.Drawing.Point, System.Drawing">
+    <value>70</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataColumnStability.Width" type="System.Drawing.Point, System.Drawing">
+    <value>70</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataColumnUserStability.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Überschreiben</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="dataColumnUserStability.MinimumWidth" type="System.Drawing.Point, System.Drawing">
+    <value>80</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataColumnUserStability.Width" type="System.Drawing.Point, System.Drawing">
+    <value>80</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataColumnVersion.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Version</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="dataColumnVersion.Width" type="System.Drawing.Point, System.Drawing">
+    <value>67</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataGridVersions.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value>Top, Bottom, Left, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataGridVersions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataGridVersions.Size" type="System.Drawing.Point, System.Drawing">
+    <value>689, 227</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="dataGridVersions.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelStability.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value>True</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelStability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelStability.Size" type="System.Drawing.Point, System.Drawing">
+    <value>90, 13</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelStability.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>2</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelStability.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Bevorzugte &amp;Stabilität:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="listBoxFeeds.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value>Top, Bottom, Left, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="listBoxFeeds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="listBoxFeeds.Size" type="System.Drawing.Point, System.Drawing">
+    <value>688, 225</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="listBoxFeeds.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabControl.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value>Top, Bottom, Left, Right</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 12</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Point, System.Drawing">
+    <value>709, 292</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>2</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageFeeds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageFeeds.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3, 3, 3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageFeeds.Size" type="System.Drawing.Point, System.Drawing">
+    <value>701, 266</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageFeeds.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>1</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageFeeds.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Feeds</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="tabPageVersions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageVersions.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3, 3, 3</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageVersions.Size" type="System.Drawing.Point, System.Drawing">
+    <value>701, 266</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageVersions.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value>0</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="tabPageVersions.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Versionen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+</root>

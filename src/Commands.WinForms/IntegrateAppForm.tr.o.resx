@@ -1,104 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,205 +58,2290 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="dataGridStartMenuColumnName.HeaderText" xml:space="preserve">
-    <value>Ad</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="dataGridStartMenuColumnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridStartMenuColumnCategory.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridStartMenuColumnCommand.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridDesktopColumnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridDesktopColumnCommand.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridSendToColumnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridSendToColumnCommand.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridAliasesColumnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridAliasesColumnCommand.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridAutoStartColumnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridAutoStartColumnCommand.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridFileTypesColumnDefault.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridFileTypesColumnDescription.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridFileTypesColumnExtensions.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridUrlProtocolsColumnDefault.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridUrlProtocolsColumnDescription.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridUrlProtocolsColumnProtocols.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridAutoPlayColumnDefault.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridAutoPlayColumnDescription.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridAutoPlayColumnEvents.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridContextMenuColumnEnabled.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridContextMenuColumnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridDefaultProgramsColumnDefault.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridDefaultProgramsColumnDescription.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridDefaultProgramsColumnService.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridStartMenuColumnCategory.HeaderText" xml:space="preserve">
-    <value>Kategori</value>
+  <data name="&gt;&gt;$this.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridStartMenuColumnCommand.HeaderText" xml:space="preserve">
-    <value>Komut</value>
+  <data name="&gt;&gt;buttonAdvancedMode.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageStartMenu.Text" xml:space="preserve">
-    <value>Başlat menüsü</value>
+  <data name="&gt;&gt;buttonAdvancedMode.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridDesktopColumnName.HeaderText" xml:space="preserve">
-    <value>Ad</value>
+  <data name="&gt;&gt;buttonAdvancedMode.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridDesktopColumnCommand.HeaderText" xml:space="preserve">
-    <value>Komut</value>
+  <data name="&gt;&gt;buttonAdvancedMode.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageDesktop.Text" xml:space="preserve">
-    <value>Masaüstü</value>
+  <data name="&gt;&gt;buttonBasicMode.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridSendToColumnName.HeaderText" xml:space="preserve">
-    <value>Ad</value>
+  <data name="&gt;&gt;buttonBasicMode.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridSendToColumnCommand.HeaderText" xml:space="preserve">
-    <value>Komut</value>
+  <data name="&gt;&gt;buttonBasicMode.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageSendTo.Text" xml:space="preserve">
-    <value>Gönder</value>
+  <data name="&gt;&gt;buttonBasicMode.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridAliasesColumnName.HeaderText" xml:space="preserve">
-    <value>Ad</value>
+  <data name="&gt;&gt;buttonCancel.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridAliasesColumnCommand.HeaderText" xml:space="preserve">
-    <value>Komut</value>
+  <data name="&gt;&gt;buttonCancel.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageAliases.Text" xml:space="preserve">
-    <value>Komut satırı kısaltmaları</value>
+  <data name="&gt;&gt;buttonCancel.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridAutoStartColumnName.HeaderText" xml:space="preserve">
-    <value>Ad</value>
+  <data name="&gt;&gt;buttonCancel.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridAutoStartColumnCommand.HeaderText" xml:space="preserve">
-    <value>Komut</value>
+  <data name="&gt;&gt;buttonHelpAliases.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageAutoStart.Text" xml:space="preserve">
-    <value>Otomatik başlat</value>
+  <data name="&gt;&gt;buttonHelpAliases.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxFileTypesAll.Text" xml:space="preserve">
-    <value>Tümünü &amp;seç</value>
+  <data name="&gt;&gt;buttonHelpAliases.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridFileTypesColumnDefault.HeaderText" xml:space="preserve">
-    <value>Varsayılan</value>
+  <data name="&gt;&gt;buttonHelpAliases.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridFileTypesColumnDescription.HeaderText" xml:space="preserve">
-    <value>Açıklama</value>
+  <data name="&gt;&gt;buttonHelpAutoPlay.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridFileTypesColumnExtensions.HeaderText" xml:space="preserve">
-    <value>Uzantılar</value>
+  <data name="&gt;&gt;buttonHelpAutoPlay.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageFileTypes.Text" xml:space="preserve">
-    <value>Dosya türleri</value>
+  <data name="&gt;&gt;buttonHelpAutoPlay.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxUrlProtocolsAll.Text" xml:space="preserve">
-    <value>Tümünü &amp;seç</value>
+  <data name="&gt;&gt;buttonHelpAutoPlay.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridUrlProtocolsColumnDefault.HeaderText" xml:space="preserve">
-    <value>Varsayılan</value>
+  <data name="&gt;&gt;buttonHelpAutoStart.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridUrlProtocolsColumnDescription.HeaderText" xml:space="preserve">
-    <value>Açıklama</value>
+  <data name="&gt;&gt;buttonHelpAutoStart.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridUrlProtocolsColumnProtocols.HeaderText" xml:space="preserve">
-    <value>İletişim kuralları</value>
+  <data name="&gt;&gt;buttonHelpAutoStart.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageUrlProtocols.Text" xml:space="preserve">
-    <value>Adres iletişim kuralları</value>
+  <data name="&gt;&gt;buttonHelpAutoStart.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxAutoPlayAll.Text" xml:space="preserve">
-    <value>Tümünü &amp;seç</value>
+  <data name="&gt;&gt;buttonHelpContextMenu.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridAutoPlayColumnDefault.HeaderText" xml:space="preserve">
-    <value>Varsayılan</value>
+  <data name="&gt;&gt;buttonHelpContextMenu.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridAutoPlayColumnDescription.HeaderText" xml:space="preserve">
-    <value>Açıklama</value>
+  <data name="&gt;&gt;buttonHelpContextMenu.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridAutoPlayColumnEvents.HeaderText" xml:space="preserve">
-    <value>Etkinlikler</value>
+  <data name="&gt;&gt;buttonHelpContextMenu.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageAutoPlay.Text" xml:space="preserve">
-    <value>Otomatik oynat</value>
+  <data name="&gt;&gt;buttonHelpDefaultPrograms.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxContextMenuAll.Text" xml:space="preserve">
-    <value>Tümünü &amp;seç</value>
+  <data name="&gt;&gt;buttonHelpDefaultPrograms.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridContextMenuColumnEnabled.HeaderText" xml:space="preserve">
-    <value>Etkin</value>
+  <data name="&gt;&gt;buttonHelpDefaultPrograms.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridContextMenuColumnName.HeaderText" xml:space="preserve">
-    <value>Kayıt adı</value>
+  <data name="&gt;&gt;buttonHelpDefaultPrograms.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageContextMenu.Text" xml:space="preserve">
-    <value>İçerik menüsü</value>
+  <data name="&gt;&gt;buttonHelpDesktop.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxDefaultProgramsAll.Text" xml:space="preserve">
-    <value>Tümünü &amp;seç</value>
+  <data name="&gt;&gt;buttonHelpDesktop.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridDefaultProgramsColumnDefault.HeaderText" xml:space="preserve">
-    <value>Varsayılan</value>
+  <data name="&gt;&gt;buttonHelpDesktop.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridDefaultProgramsColumnDescription.HeaderText" xml:space="preserve">
-    <value>Açıklama</value>
+  <data name="&gt;&gt;buttonHelpDesktop.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataGridDefaultProgramsColumnService.HeaderText" xml:space="preserve">
-    <value>Hizmet</value>
+  <data name="&gt;&gt;buttonHelpFileTypes.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageDefaultPrograms.Text" xml:space="preserve">
-    <value>Varsayılan uygulamalar</value>
+  <data name="&gt;&gt;buttonHelpFileTypes.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxCapabilities.Text" xml:space="preserve">
-    <value>&amp;Yetenekleri kaydet</value>
+  <data name="&gt;&gt;buttonHelpFileTypes.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxCapabilities.ToolTip" xml:space="preserve">
-    <value>İşlenecek dosya türleri gibi uygulama özelliklerini işletim sistemine iletir.</value>
+  <data name="&gt;&gt;buttonHelpFileTypes.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxAutoUpdate.Text" xml:space="preserve">
-    <value>Otomatik &amp;güncelleme</value>
+  <data name="&gt;&gt;buttonHelpSendTo.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxAutoUpdate.ToolTip" xml:space="preserve">
-    <value>Bu uygulama "Tümünü güncelle" denetimlerine katılır.</value>
+  <data name="&gt;&gt;buttonHelpSendTo.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonAdvancedMode.Text" xml:space="preserve">
+  <data name="&gt;&gt;buttonHelpSendTo.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpSendTo.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpStartMenu.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpStartMenu.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpStartMenu.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpStartMenu.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpUrlProtocols.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpUrlProtocols.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpUrlProtocols.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonHelpUrlProtocols.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAliasesSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAliasesSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAliasesSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAliasesSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoPlayAll.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoPlayAll.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoPlayAll.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoPlayAll.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoPlaySimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoPlaySimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoPlaySimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoPlaySimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoStartSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoStartSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoStartSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoStartSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoUpdate.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoUpdate.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoUpdate.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoUpdate.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxCapabilities.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxCapabilities.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxCapabilities.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxCapabilities.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxContextMenuAll.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxContextMenuAll.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxContextMenuAll.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxContextMenuAll.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxContextMenuSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxContextMenuSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxContextMenuSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxContextMenuSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDefaultProgramsAll.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDefaultProgramsAll.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDefaultProgramsAll.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDefaultProgramsAll.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDefaultProgramsSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDefaultProgramsSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDefaultProgramsSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDefaultProgramsSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDesktopSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDesktopSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDesktopSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxDesktopSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxFileTypesAll.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxFileTypesAll.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxFileTypesAll.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxFileTypesAll.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxFileTypesSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxFileTypesSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxFileTypesSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxFileTypesSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxSendToSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxSendToSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxSendToSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxSendToSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxStartMenuSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxStartMenuSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxStartMenuSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxStartMenuSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxUrlProtocolsAll.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxUrlProtocolsAll.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxUrlProtocolsAll.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxUrlProtocolsAll.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxUrlProtocolsSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxUrlProtocolsSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxUrlProtocolsSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxUrlProtocolsSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAliases.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAliases.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAliases.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAliases.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAliasesColumnCommand.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAliasesColumnCommand.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAliasesColumnName.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAliasesColumnName.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlay.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlay.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlay.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlay.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlayColumnDefault.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlayColumnDefault.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlayColumnDescription.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlayColumnDescription.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlayColumnEvents.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoPlayColumnEvents.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoStart.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoStart.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoStart.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoStart.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoStartColumnCommand.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoStartColumnCommand.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoStartColumnName.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridAutoStartColumnName.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridContextMenu.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridContextMenu.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridContextMenu.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridContextMenu.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridContextMenuColumnEnabled.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridContextMenuColumnEnabled.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridContextMenuColumnName.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridContextMenuColumnName.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultPrograms.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultPrograms.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultPrograms.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultPrograms.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultProgramsColumnDefault.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultProgramsColumnDefault.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultProgramsColumnDescription.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultProgramsColumnDescription.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultProgramsColumnService.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDefaultProgramsColumnService.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDesktop.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDesktop.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDesktop.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDesktop.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDesktopColumnCommand.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDesktopColumnCommand.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDesktopColumnName.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridDesktopColumnName.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypes.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypes.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypes.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypes.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypesColumnDefault.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypesColumnDefault.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypesColumnDescription.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypesColumnDescription.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypesColumnExtensions.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridFileTypesColumnExtensions.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridSendTo.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridSendTo.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridSendTo.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridSendTo.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridSendToColumnCommand.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridSendToColumnCommand.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridSendToColumnName.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridSendToColumnName.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenu.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenu.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenu.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenu.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenuColumnCategory.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenuColumnCategory.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenuColumnCommand.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenuColumnCommand.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenuColumnName.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridStartMenuColumnName.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocols.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocols.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocols.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocols.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocolsColumnDefault.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocolsColumnDefault.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocolsColumnDescription.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocolsColumnDescription.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocolsColumnProtocols.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridUrlProtocolsColumnProtocols.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;flowLayoutBasic.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;flowLayoutBasic.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;flowLayoutBasic.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;flowLayoutBasic.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupBoxCommandLine.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupBoxCommandLine.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupBoxCommandLine.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;groupBoxCommandLine.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAliasesSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAliasesSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAliasesSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAliasesSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAutoPlaySimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAutoPlaySimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAutoPlaySimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAutoPlaySimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAutoStartSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAutoStartSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAutoStartSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelAutoStartSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelContextMenuSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelContextMenuSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelContextMenuSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelContextMenuSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelDefaultProgramsSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelDefaultProgramsSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelDefaultProgramsSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelDefaultProgramsSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelDesktopSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelDesktopSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelDesktopSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelDesktopSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelFileTypesSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelFileTypesSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelFileTypesSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelFileTypesSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLastDataError.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLastDataError.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLastDataError.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelLastDataError.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSendToSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSendToSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSendToSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSendToSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelStartMenuSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelStartMenuSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelStartMenuSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelStartMenuSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelUrlProtocolsSimple.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelUrlProtocolsSimple.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelUrlProtocolsSimple.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelUrlProtocolsSimple.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelBasic.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelBasic.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelBasic.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;panelBasic.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAliases.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAliases.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAliases.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAliases.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAutoPlay.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAutoPlay.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAutoPlay.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAutoPlay.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAutoStart.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAutoStart.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAutoStart.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageAutoStart.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageContextMenu.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageContextMenu.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageContextMenu.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageContextMenu.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageDefaultPrograms.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageDefaultPrograms.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageDefaultPrograms.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageDefaultPrograms.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageDesktop.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageDesktop.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageDesktop.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageDesktop.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageFileTypes.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageFileTypes.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageFileTypes.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageFileTypes.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageSendTo.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageSendTo.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageSendTo.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageSendTo.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageStartMenu.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageStartMenu.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageStartMenu.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageStartMenu.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageUrlProtocols.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageUrlProtocols.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageUrlProtocols.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageUrlProtocols.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCommandLine.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCommandLine.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCommandLine.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCommandLine.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.StartPosition" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Uygulamayı bütünleştir</value>
+  </data>
+  <data name="buttonAdvancedMode.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAdvancedMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAdvancedMode.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAdvancedMode.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAdvancedMode.Text" type="System.Drawing.Point, System.Drawing">
     <value>Gelişmiş a&amp;yarlar</value>
   </data>
-  <data name="checkBoxStartMenuSimple.Text" xml:space="preserve">
-    <value>Başlat menüsü</value>
+  <data name="buttonBasicMode.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelStartMenuSimple.Text" xml:space="preserve">
-    <value>Bir ya da birkaç kayıt başlat menüsünde</value>
+  <data name="buttonBasicMode.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxDesktopSimple.Text" xml:space="preserve">
-    <value>Masaüstü</value>
+  <data name="buttonBasicMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelDesktopSimple.Text" xml:space="preserve">
-    <value>Masaüstünde bir simge</value>
+  <data name="buttonBasicMode.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="checkBoxSendToSimple.Text" xml:space="preserve">
-    <value>Gönder</value>
+  <data name="buttonBasicMode.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelSendToSimple.Text" xml:space="preserve">
-    <value>"Gönder" menüsünde bir öge</value>
-  </data>
-  <data name="checkBoxAliasesSimple.Text" xml:space="preserve">
-    <value>Komut satırı kısaltmaları</value>
-  </data>
-  <data name="labelAliasesSimple.Text" xml:space="preserve">
-    <value>Komut satırı arabiriminden erişim</value>
-  </data>
-  <data name="checkBoxAutoStartSimple.Text" xml:space="preserve">
-    <value>Otomatik başlat</value>
-  </data>
-  <data name="labelAutoStartSimple.Text" xml:space="preserve">
-    <value>Kullanıcı oturum açtığında uygulama otomatik olarak başlatılsın</value>
-  </data>
-  <data name="checkBoxFileTypesSimple.Text" xml:space="preserve">
-    <value>Dosya türleri</value>
-  </data>
-  <data name="labelFileTypesSimple.Text" xml:space="preserve">
-    <value>Desteklenen dosya türleri için varsayılan işleyici ("Birlikte aç" bu seçenek olmadan da çalışır)</value>
-  </data>
-  <data name="checkBoxUrlProtocolsSimple.Text" xml:space="preserve">
-    <value>Adres iletişim kuralları</value>
-  </data>
-  <data name="labelUrlProtocolsSimple.Text" xml:space="preserve">
-    <value>Desteklenen adres iletişim kuralları için varsayılan işleyici ("Birlikte aç" bu seçenek olmadan da çalışır)</value>
-  </data>
-  <data name="checkBoxAutoPlaySimple.Text" xml:space="preserve">
-    <value>Otomatik oynat</value>
-  </data>
-  <data name="labelAutoPlaySimple.Text" xml:space="preserve">
-    <value>Uygun ortam takıldığında otomatik olarak oynatılsın (DVD, USB sürücü vb.)</value>
-  </data>
-  <data name="checkBoxContextMenuSimple.Text" xml:space="preserve">
-    <value>İçerik menüsü</value>
-  </data>
-  <data name="labelContextMenuSimple.Text" xml:space="preserve">
-    <value>Windows Gezginindeki içerik menüsü kayıtları</value>
-  </data>
-  <data name="checkBoxDefaultProgramsSimple.Text" xml:space="preserve">
-    <value>Varsayılan uygulama</value>
-  </data>
-  <data name="labelDefaultProgramsSimple.Text" xml:space="preserve">
-    <value>Web tarayıcı ya da e-posta istemcisi gibi görevler için varsayılan uygulama</value>
-  </data>
-  <data name="buttonBasicMode.Text" xml:space="preserve">
+  <data name="buttonBasicMode.Text" type="System.Drawing.Point, System.Drawing">
     <value>&amp;Temel ayarlar</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Uygulamayı bütünleştir</value>
+  <data name="buttonBasicMode.Visible" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAliases.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAliases.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAliases.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAliases.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAliases.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoPlay.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoPlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoPlay.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoPlay.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoPlay.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoStart.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoStart.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoStart.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpAutoStart.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpContextMenu.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpContextMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpContextMenu.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpContextMenu.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpContextMenu.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDefaultPrograms.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDefaultPrograms.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDefaultPrograms.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDefaultPrograms.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDefaultPrograms.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDesktop.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDesktop.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDesktop.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDesktop.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpDesktop.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpFileTypes.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpFileTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpFileTypes.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpFileTypes.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpFileTypes.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpSendTo.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpSendTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpSendTo.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpSendTo.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpSendTo.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpStartMenu.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpStartMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpStartMenu.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpStartMenu.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpStartMenu.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpUrlProtocols.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpUrlProtocols.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpUrlProtocols.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpUrlProtocols.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonHelpUrlProtocols.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAliasesSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAliasesSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAliasesSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAliasesSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAliasesSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAliasesSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAliasesSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Komut satırı kısaltmaları</value>
+  </data>
+  <data name="checkBoxAutoPlayAll.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlayAll.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlayAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlayAll.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlayAll.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlayAll.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tümünü &amp;seç</value>
+  </data>
+  <data name="checkBoxAutoPlaySimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlaySimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlaySimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlaySimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlaySimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlaySimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoPlaySimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Otomatik oynat</value>
+  </data>
+  <data name="checkBoxAutoStartSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoStartSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoStartSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoStartSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoStartSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoStartSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoStartSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Otomatik başlat</value>
+  </data>
+  <data name="checkBoxAutoUpdate.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoUpdate.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoUpdate.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxAutoUpdate.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Otomatik &amp;güncelleme</value>
+  </data>
+  <data name="checkBoxAutoUpdate.ToolTip" type="System.Drawing.Point, System.Drawing">
+    <value>Bu uygulama "Tümünü güncelle" denetimlerine katılır.</value>
+  </data>
+  <data name="checkBoxAutoUpdate.Visible" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxCapabilities.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxCapabilities.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxCapabilities.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxCapabilities.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxCapabilities.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Yetenekleri kaydet</value>
+  </data>
+  <data name="checkBoxCapabilities.ToolTip" type="System.Drawing.Point, System.Drawing">
+    <value>İşlenecek dosya türleri gibi uygulama özelliklerini işletim sistemine iletir.</value>
+  </data>
+  <data name="checkBoxCapabilities.Visible" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuAll.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuAll.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuAll.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuAll.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuAll.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tümünü &amp;seç</value>
+  </data>
+  <data name="checkBoxContextMenuSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuSimple.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxContextMenuSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>İçerik menüsü</value>
+  </data>
+  <data name="checkBoxDefaultProgramsAll.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsAll.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsAll.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsAll.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsAll.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tümünü &amp;seç</value>
+  </data>
+  <data name="checkBoxDefaultProgramsSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsSimple.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDefaultProgramsSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Varsayılan uygulama</value>
+  </data>
+  <data name="checkBoxDesktopSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDesktopSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDesktopSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDesktopSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDesktopSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDesktopSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxDesktopSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Masaüstü</value>
+  </data>
+  <data name="checkBoxFileTypesAll.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesAll.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesAll.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesAll.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesAll.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tümünü &amp;seç</value>
+  </data>
+  <data name="checkBoxFileTypesSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxFileTypesSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Dosya türleri</value>
+  </data>
+  <data name="checkBoxSendToSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxSendToSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxSendToSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxSendToSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxSendToSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxSendToSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxSendToSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Gönder</value>
+  </data>
+  <data name="checkBoxStartMenuSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxStartMenuSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxStartMenuSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxStartMenuSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxStartMenuSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxStartMenuSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxStartMenuSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Başlat menüsü</value>
+  </data>
+  <data name="checkBoxUrlProtocolsAll.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsAll.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsAll.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsAll.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsAll.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tümünü &amp;seç</value>
+  </data>
+  <data name="checkBoxUrlProtocolsSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsSimple.Font" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsSimple.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxUrlProtocolsSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Adres iletişim kuralları</value>
+  </data>
+  <data name="dataGridAliases.Dock" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAliases.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAliases.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAliases.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAliasesColumnCommand.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Komut</value>
+  </data>
+  <data name="dataGridAliasesColumnName.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Ad</value>
+  </data>
+  <data name="dataGridAutoPlay.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoPlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoPlay.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoPlay.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoPlayColumnDefault.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Varsayılan</value>
+  </data>
+  <data name="dataGridAutoPlayColumnDefault.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoPlayColumnDescription.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Açıklama</value>
+  </data>
+  <data name="dataGridAutoPlayColumnEvents.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Etkinlikler</value>
+  </data>
+  <data name="dataGridAutoPlayColumnEvents.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoStart.Dock" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoStart.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoStart.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridAutoStartColumnCommand.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Komut</value>
+  </data>
+  <data name="dataGridAutoStartColumnName.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Ad</value>
+  </data>
+  <data name="dataGridContextMenu.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridContextMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridContextMenu.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridContextMenu.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridContextMenuColumnEnabled.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Etkin</value>
+  </data>
+  <data name="dataGridContextMenuColumnEnabled.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridContextMenuColumnName.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Kayıt adı</value>
+  </data>
+  <data name="dataGridDefaultPrograms.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDefaultPrograms.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDefaultPrograms.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDefaultPrograms.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDefaultProgramsColumnDefault.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Varsayılan</value>
+  </data>
+  <data name="dataGridDefaultProgramsColumnDefault.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDefaultProgramsColumnDescription.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Açıklama</value>
+  </data>
+  <data name="dataGridDefaultProgramsColumnService.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Hizmet</value>
+  </data>
+  <data name="dataGridDefaultProgramsColumnService.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDesktop.Dock" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDesktop.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDesktop.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDesktop.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridDesktopColumnCommand.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Komut</value>
+  </data>
+  <data name="dataGridDesktopColumnName.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Ad</value>
+  </data>
+  <data name="dataGridFileTypes.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridFileTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridFileTypes.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridFileTypes.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridFileTypesColumnDefault.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Varsayılan</value>
+  </data>
+  <data name="dataGridFileTypesColumnDefault.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridFileTypesColumnDescription.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Açıklama</value>
+  </data>
+  <data name="dataGridFileTypesColumnExtensions.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Uzantılar</value>
+  </data>
+  <data name="dataGridFileTypesColumnExtensions.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridSendTo.Dock" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridSendTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridSendTo.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridSendTo.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridSendToColumnCommand.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Komut</value>
+  </data>
+  <data name="dataGridSendToColumnName.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Ad</value>
+  </data>
+  <data name="dataGridStartMenu.Dock" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridStartMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridStartMenu.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridStartMenu.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridStartMenuColumnCategory.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Kategori</value>
+  </data>
+  <data name="dataGridStartMenuColumnCommand.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Komut</value>
+  </data>
+  <data name="dataGridStartMenuColumnName.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Ad</value>
+  </data>
+  <data name="dataGridUrlProtocols.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridUrlProtocols.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridUrlProtocols.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridUrlProtocols.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridUrlProtocolsColumnDefault.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Varsayılan</value>
+  </data>
+  <data name="dataGridUrlProtocolsColumnDefault.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridUrlProtocolsColumnDescription.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Açıklama</value>
+  </data>
+  <data name="dataGridUrlProtocolsColumnProtocols.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>İletişim kuralları</value>
+  </data>
+  <data name="dataGridUrlProtocolsColumnProtocols.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="flowLayoutBasic.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="flowLayoutBasic.AutoSizeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="flowLayoutBasic.FlowDirection" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="flowLayoutBasic.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="flowLayoutBasic.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="flowLayoutBasic.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupBoxCommandLine.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupBoxCommandLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupBoxCommandLine.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupBoxCommandLine.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupBoxCommandLine.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAliasesSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAliasesSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAliasesSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAliasesSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAliasesSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAliasesSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAliasesSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Komut satırı arabiriminden erişim</value>
+  </data>
+  <data name="labelAutoPlaySimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoPlaySimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoPlaySimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoPlaySimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoPlaySimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoPlaySimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoPlaySimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Uygun ortam takıldığında otomatik olarak oynatılsın (DVD, USB sürücü vb.)</value>
+  </data>
+  <data name="labelAutoStartSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoStartSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoStartSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoStartSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoStartSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoStartSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelAutoStartSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kullanıcı oturum açtığında uygulama otomatik olarak başlatılsın</value>
+  </data>
+  <data name="labelContextMenuSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelContextMenuSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelContextMenuSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelContextMenuSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelContextMenuSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelContextMenuSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelContextMenuSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Windows Gezginindeki içerik menüsü kayıtları</value>
+  </data>
+  <data name="labelDefaultProgramsSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDefaultProgramsSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDefaultProgramsSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDefaultProgramsSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDefaultProgramsSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDefaultProgramsSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDefaultProgramsSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Web tarayıcı ya da e-posta istemcisi gibi görevler için varsayılan uygulama</value>
+  </data>
+  <data name="labelDesktopSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDesktopSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDesktopSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDesktopSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDesktopSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDesktopSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelDesktopSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Masaüstünde bir simge</value>
+  </data>
+  <data name="labelFileTypesSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelFileTypesSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelFileTypesSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelFileTypesSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelFileTypesSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelFileTypesSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelFileTypesSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Desteklenen dosya türleri için varsayılan işleyici ("Birlikte aç" bu seçenek olmadan da çalışır)</value>
+  </data>
+  <data name="labelLastDataError.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLastDataError.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLastDataError.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLastDataError.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLastDataError.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelLastDataError.Visible" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSendToSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSendToSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSendToSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSendToSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSendToSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSendToSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSendToSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>"Gönder" menüsünde bir öge</value>
+  </data>
+  <data name="labelStartMenuSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStartMenuSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStartMenuSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStartMenuSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStartMenuSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStartMenuSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStartMenuSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Bir ya da birkaç kayıt başlat menüsünde</value>
+  </data>
+  <data name="labelUrlProtocolsSimple.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUrlProtocolsSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUrlProtocolsSimple.Margin" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUrlProtocolsSimple.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUrlProtocolsSimple.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUrlProtocolsSimple.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUrlProtocolsSimple.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Desteklenen adres iletişim kuralları için varsayılan işleyici ("Birlikte aç" bu seçenek olmadan da çalışır)</value>
+  </data>
+  <data name="panelBasic.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="panelBasic.AutoScroll" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="panelBasic.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="panelBasic.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="panelBasic.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.Visible" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAliases.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAliases.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAliases.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAliases.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAliases.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Komut satırı kısaltmaları</value>
+  </data>
+  <data name="tabPageAutoPlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAutoPlay.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAutoPlay.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAutoPlay.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAutoPlay.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Otomatik oynat</value>
+  </data>
+  <data name="tabPageAutoStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAutoStart.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAutoStart.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAutoStart.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageAutoStart.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Otomatik başlat</value>
+  </data>
+  <data name="tabPageContextMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageContextMenu.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageContextMenu.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageContextMenu.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageContextMenu.Text" type="System.Drawing.Point, System.Drawing">
+    <value>İçerik menüsü</value>
+  </data>
+  <data name="tabPageDefaultPrograms.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageDefaultPrograms.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageDefaultPrograms.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageDefaultPrograms.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageDefaultPrograms.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Varsayılan uygulamalar</value>
+  </data>
+  <data name="tabPageDesktop.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageDesktop.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageDesktop.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageDesktop.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageDesktop.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Masaüstü</value>
+  </data>
+  <data name="tabPageFileTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFileTypes.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFileTypes.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFileTypes.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFileTypes.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Dosya türleri</value>
+  </data>
+  <data name="tabPageSendTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageSendTo.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageSendTo.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageSendTo.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageSendTo.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Gönder</value>
+  </data>
+  <data name="tabPageStartMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageStartMenu.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageStartMenu.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageStartMenu.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageStartMenu.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Başlat menüsü</value>
+  </data>
+  <data name="tabPageUrlProtocols.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageUrlProtocols.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageUrlProtocols.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageUrlProtocols.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageUrlProtocols.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Adres iletişim kuralları</value>
+  </data>
+  <data name="textBoxCommandLine.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCommandLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCommandLine.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCommandLine.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
 </root>

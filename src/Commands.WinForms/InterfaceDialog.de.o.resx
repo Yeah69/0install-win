@@ -1,64 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -112,68 +53,480 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="checkBoxShowAllVersions.Text" xml:space="preserve">
-    <value>Zeige alle &amp;Versionen an</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dataColumnVersion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnReleased.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnStability.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnArchitecture.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnNotes.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataColumnSource.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelStability.Text" xml:space="preserve">
-    <value>Bevorzugte &amp;Stabilität:</value>
+  <data name="&gt;&gt;$this.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataColumnReleased.HeaderText" xml:space="preserve">
-    <value>Veröffentlicht</value>
+  <data name="&gt;&gt;buttonAddFeed.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dataColumnStability.HeaderText" xml:space="preserve">
-    <value>Stabilität</value>
+  <data name="&gt;&gt;buttonAddFeed.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataColumnUserStability.HeaderText" xml:space="preserve">
-    <value>Überschreiben</value>
+  <data name="&gt;&gt;buttonAddFeed.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataColumnArchitecture.HeaderText" xml:space="preserve">
-    <value>Architektur</value>
+  <data name="&gt;&gt;buttonAddFeed.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataColumnNotes.HeaderText" xml:space="preserve">
-    <value>Hinweise</value>
+  <data name="&gt;&gt;buttonApply.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="dataColumnSource.HeaderText" xml:space="preserve">
-    <value>Quelle</value>
+  <data name="&gt;&gt;buttonApply.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="tabPageVersions.Text" xml:space="preserve">
-    <value>Versionen</value>
+  <data name="&gt;&gt;buttonApply.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonRemoveFeed.Text" xml:space="preserve">
-    <value>&amp;Entfernen</value>
+  <data name="&gt;&gt;buttonApply.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonAddFeed.Text" xml:space="preserve">
-    <value>&amp;Hinzufügen</value>
+  <data name="&gt;&gt;buttonCancel.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonApply.Text" xml:space="preserve">
-    <value>Übernehmen</value>
+  <data name="&gt;&gt;buttonCancel.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
+  <data name="&gt;&gt;buttonCancel.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveFeed.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveFeed.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveFeed.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveFeed.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowAllVersions.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowAllVersions.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowAllVersions.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowAllVersions.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;comboBoxStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;comboBoxStability.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;comboBoxStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;comboBoxStability.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnArchitecture.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnArchitecture.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnNotes.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnNotes.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnReleased.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnReleased.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnSource.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnSource.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnUserStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnUserStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnVersion.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataColumnVersion.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridVersions.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridVersions.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridVersions.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;dataGridVersions.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelStability.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelStability.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelStability.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelStability.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxFeeds.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxFeeds.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxFeeds.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;listBoxFeeds.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageFeeds.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageFeeds.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageFeeds.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageFeeds.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageVersions.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageVersions.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageVersions.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;tabPageVersions.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.Text" type="System.Drawing.Point, System.Drawing">
     <value>Interface Eigenschaften</value>
   </data>
-  <data name="buttonAddFeed.ToolTip" xml:space="preserve">
+  <data name="buttonAddFeed.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddFeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddFeed.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddFeed.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonAddFeed.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Hinzufügen</value>
+  </data>
+  <data name="buttonAddFeed.ToolTip" type="System.Drawing.Point, System.Drawing">
     <value>Fügt eine neue Implementierungsquelle für dieses Interface hinzu</value>
   </data>
-  <data name="buttonRemoveFeed.ToolTip" xml:space="preserve">
+  <data name="buttonApply.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonApply.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonApply.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonApply.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Übernehmen</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveFeed.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveFeed.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveFeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveFeed.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveFeed.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonRemoveFeed.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Entfernen</value>
+  </data>
+  <data name="buttonRemoveFeed.ToolTip" type="System.Drawing.Point, System.Drawing">
     <value>Entfern eine Implementierungsquelle für dieses Interface</value>
   </data>
-  <data name="checkBoxShowAllVersions.ToolTip" xml:space="preserve">
+  <data name="checkBoxShowAllVersions.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxShowAllVersions.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxShowAllVersions.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxShowAllVersions.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxShowAllVersions.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="checkBoxShowAllVersions.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zeige alle &amp;Versionen an</value>
+  </data>
+  <data name="checkBoxShowAllVersions.ToolTip" type="System.Drawing.Point, System.Drawing">
     <value>Versionen anzeigen, die auf diesem System nicht unterstützt werden</value>
   </data>
-  <data name="comboBoxStability.ToolTip" xml:space="preserve">
+  <data name="comboBoxStability.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="comboBoxStability.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="comboBoxStability.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="comboBoxStability.ToolTip" type="System.Drawing.Point, System.Drawing">
     <value>Bestimmt welche Stabilitätsbewertung als "beste" angesehen wird</value>
   </data>
-  <data name="dataColumnVersion.HeaderText" xml:space="preserve">
+  <data name="dataColumnArchitecture.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Architektur</value>
+  </data>
+  <data name="dataColumnArchitecture.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataColumnNotes.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Hinweise</value>
+  </data>
+  <data name="dataColumnNotes.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataColumnReleased.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Veröffentlicht</value>
+  </data>
+  <data name="dataColumnReleased.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataColumnSource.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Quelle</value>
+  </data>
+  <data name="dataColumnSource.MinimumWidth" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataColumnStability.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Stabilität</value>
+  </data>
+  <data name="dataColumnStability.MinimumWidth" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataColumnStability.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataColumnUserStability.HeaderText" type="System.Drawing.Point, System.Drawing">
+    <value>Überschreiben</value>
+  </data>
+  <data name="dataColumnUserStability.MinimumWidth" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataColumnUserStability.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataColumnVersion.HeaderText" type="System.Drawing.Point, System.Drawing">
     <value>Version</value>
   </data>
-  <data name="tabPageFeeds.Text" xml:space="preserve">
+  <data name="dataColumnVersion.Width" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridVersions.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridVersions.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridVersions.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="dataGridVersions.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStability.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStability.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStability.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStability.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelStability.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Bevorzugte &amp;Stabilität:</value>
+  </data>
+  <data name="listBoxFeeds.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxFeeds.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxFeeds.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="listBoxFeeds.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFeeds.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFeeds.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFeeds.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFeeds.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageFeeds.Text" type="System.Drawing.Point, System.Drawing">
     <value>Feeds</value>
+  </data>
+  <data name="tabPageVersions.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageVersions.Padding" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageVersions.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageVersions.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="tabPageVersions.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Versionen</value>
   </data>
 </root>

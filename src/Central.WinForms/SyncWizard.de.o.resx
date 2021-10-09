@@ -1,64 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -117,163 +58,1684 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonSetupFirst.Text" xml:space="preserve">
-    <value>Ja, dies ist der &amp;erste Rechner</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonSetupSubsequent.Text" xml:space="preserve">
-    <value>Nein, ich habe bereits &amp;andere Rechner eingerichtet</value>
+  <data name="&gt;&gt;$this.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelSetup.Text" xml:space="preserve">
-    <value>Ist dies der erste Rechner, den Sie für Zero Install Sync einrichten?</value>
+  <data name="&gt;&gt;buttonChangeCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelSetupWelcome.Text" xml:space="preserve">
-    <value>Zero Install Sync nimmt Ihre Anwendungsliste und Desktopintegrationen und gleicht diese automatisch mit Ihren anderen Rechnern ab.</value>
+  <data name="&gt;&gt;buttonChangeCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="optionFileShare.Text" xml:space="preserve">
-    <value>Verwende Windows &amp;Dateifreigabe:</value>
+  <data name="&gt;&gt;buttonChangeCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="textBoxFileShare.HintText" xml:space="preserve">
-    <value>Verzeichnispfad</value>
+  <data name="&gt;&gt;buttonChangeCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="linkCustomServer.Text" xml:space="preserve">
-    <value>Wie richte ich meinen eigenen Sync Server ein?</value>
+  <data name="&gt;&gt;buttonFileShareBrowse.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="optionCustomServer.Text" xml:space="preserve">
-    <value>Verwende &amp;eigenen Server:</value>
+  <data name="&gt;&gt;buttonFileShareBrowse.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="optionOfficialServer.Text" xml:space="preserve">
-    <value>Verwende den &amp;0install.de Server (empfohlen)</value>
+  <data name="&gt;&gt;buttonFileShareBrowse.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelServerType.Text" xml:space="preserve">
-    <value>Welchen Server möchten Sie verwenden?</value>
+  <data name="&gt;&gt;buttonFileShareBrowse.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelServer.Text" xml:space="preserve">
-    <value>0install.de bietet kostenlose Konten zum Speichern von Sync-Daten an. Alle Daten werden verschlüsselt bevor sie zum Server übermittelt werden. Sie können auch einen eigenen Server verwenden, wenn Sie möchten.</value>
+  <data name="&gt;&gt;buttonForgotKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageSetupWelcome.Text" xml:space="preserve">
-    <value>Sync einrichten</value>
+  <data name="&gt;&gt;buttonForgotKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelRegister2.Text" xml:space="preserve">
-    <value>Nachdem Sie einen Account angelegt, Ihre E-Mail Adresse verifiziert und Ihre Logindaten vermerkt haben haben, klicken Sie auf "Fortsetzen".</value>
+  <data name="&gt;&gt;buttonForgotKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="linkRegister.Text" xml:space="preserve">
-    <value>Registieren</value>
+  <data name="&gt;&gt;buttonForgotKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelRegister.Text" xml:space="preserve">
-    <value>Klicken Sie auf diesen Link um einen neuen Sync Account in Ihrem Browser anzulegen:</value>
+  <data name="&gt;&gt;buttonResetClient.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelPassword.Text" xml:space="preserve">
-    <value>&amp;Passwort:</value>
+  <data name="&gt;&gt;buttonResetClient.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelUsername.Text" xml:space="preserve">
-    <value>&amp;Benutzername:</value>
+  <data name="&gt;&gt;buttonResetClient.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelCredentials.Text" xml:space="preserve">
-    <value>Bitte geben Sie Ihre Zugangsdaten für den Sync-Server ein:</value>
+  <data name="&gt;&gt;buttonResetClient.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageCredentials.Text" xml:space="preserve">
-    <value>Sync Konto</value>
+  <data name="&gt;&gt;buttonResetServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageRegister.Text" xml:space="preserve">
-    <value>Sync Konto</value>
+  <data name="&gt;&gt;buttonResetServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonForgotKey.Text" xml:space="preserve">
-    <value>Schlüssel &amp;vergessen</value>
+  <data name="&gt;&gt;buttonResetServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelCryptoKey.Text" xml:space="preserve">
-    <value>Crypto-Schlüssel:</value>
+  <data name="&gt;&gt;buttonResetServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelExistingCryptoKey.Text" xml:space="preserve">
-    <value>Geben Sie den Crypto-Schlüssel ein, den Sie zuvor auf diesem und/oder anderen Rechnern verwendet haben:</value>
+  <data name="&gt;&gt;buttonSetupFirst.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageExistingCryptoKey.Text" xml:space="preserve">
-    <value>Crypto-Schlüssel</value>
+  <data name="&gt;&gt;buttonSetupFirst.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelResetCryptoKey.Text" xml:space="preserve">
-    <value>Alle Änderungen, die Sie auf anderen Rechnern gemacht aber noch nicht mit diesem synchronisiert haben, gehen hierbei verloren!</value>
+  <data name="&gt;&gt;buttonSetupFirst.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelCryptoKeyReset.Text" xml:space="preserve">
-    <value>Neuer Crypto-&amp;Schlüssel:</value>
+  <data name="&gt;&gt;buttonSetupFirst.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelCryptoKeyChangedHint.Text" xml:space="preserve">
-    <value>Geben Sie den Schlüssel auf anderen Computern mit dem 'Optionen' Fenster ein. Verwenden Sie dort nicht diesen Assistenten, da er nur zur ersten Änderung benötigt wird.</value>
+  <data name="&gt;&gt;buttonSetupSubsequent.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelCryptoKeyChanged.Text" xml:space="preserve">
-    <value>Der Crypto-Schlüssel wurde geändert. Sie müssen nun den neuen Schlüssel auf allen anderen Computern, die Sie bereits für Zero Install Sync eingerichtet haben, ebenfalls eintragen.</value>
+  <data name="&gt;&gt;buttonSetupSubsequent.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageCryptoKeyChanged.Text" xml:space="preserve">
-    <value>Crypto-Schlüssel geändert</value>
+  <data name="&gt;&gt;buttonSetupSubsequent.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageResetCryptoKey.Text" xml:space="preserve">
-    <value>Crypto-Schlüssel zurücksetzen</value>
+  <data name="&gt;&gt;buttonSetupSubsequent.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelNewCryptoKeyHint.Text" xml:space="preserve">
-    <value>Halten Sie diesen Schlüssel geheim und verwenden Sie etwas anderes für Ihr Passwort. Auf diese Weise kann niemand auf Ihre Daten zugreifen, selbst wenn der Server kompromittiert werden würde.</value>
+  <data name="&gt;&gt;groupCustomServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelCryptoKeyNew.Text" xml:space="preserve">
-    <value>Crypto-&amp;Schlüssel:</value>
+  <data name="&gt;&gt;groupCustomServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelNewCryptoKey.Text" xml:space="preserve">
-    <value>Der Crypto-Schlüssel wird verwendet, um Ihre Daten lokal zu verschlüsseln, bevor sie an den Server übermittelt werden. Schreiben Sie sich den vorgeschlagenen auf oder wählen Sie einen eigenen.</value>
+  <data name="&gt;&gt;groupCustomServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelSetupFinished.Text" xml:space="preserve">
-    <value>Zero Install Sync ist nun eingerichtet und bereit zum Einsatz. Führen Sie diesen Assistenten auf allen anderen Rechnern aus, die Sie mit diesem synchronisieren möchten.</value>
+  <data name="&gt;&gt;groupCustomServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageSetupFinished.Text" xml:space="preserve">
-    <value>Abgeschlossen</value>
+  <data name="&gt;&gt;groupFileShare.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageNewCryptoKey.Text" xml:space="preserve">
-    <value>Crypto-Schlüssel</value>
+  <data name="&gt;&gt;groupFileShare.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonResetClient.Text" xml:space="preserve">
-    <value>Ich möchte meine &amp;lokalen Daten ersetzen</value>
+  <data name="&gt;&gt;groupFileShare.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonResetServer.Text" xml:space="preserve">
-    <value>Die &amp;Serverdaten sind beschädigt</value>
+  <data name="&gt;&gt;groupFileShare.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="buttonChangeCryptoKey.Text" xml:space="preserve">
+  <data name="&gt;&gt;labelChangeCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelChangeCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelChangeCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelChangeCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCredentials.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCredentials.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCredentials.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCredentials.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChange.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChange.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChange.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChange.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChanged.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChanged.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChanged.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChanged.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChangedHint.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChangedHint.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChangedHint.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyChangedHint.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyNew.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyNew.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyNew.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyNew.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyReset.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyReset.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyReset.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelCryptoKeyReset.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelExistingCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelExistingCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelExistingCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelExistingCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNewCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNewCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNewCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNewCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNewCryptoKeyHint.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNewCryptoKeyHint.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNewCryptoKeyHint.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelNewCryptoKeyHint.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelPassword.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelPassword.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelPassword.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelPassword.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelRegister.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelRegister.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelRegister.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelRegister.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelRegister2.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelRegister2.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelRegister2.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelRegister2.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetClient.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetClient.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetClient.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetClient.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetClientFinished.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetClientFinished.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetClientFinished.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetClientFinished.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServerFinished.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServerFinished.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServerFinished.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServerFinished.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServerFinishedHint.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServerFinishedHint.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServerFinishedHint.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetServerFinishedHint.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetWelcome.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetWelcome.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetWelcome.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelResetWelcome.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServerType.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServerType.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServerType.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelServerType.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetup.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetup.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetup.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetup.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetupFinished.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetupFinished.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetupFinished.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetupFinished.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetupWelcome.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetupWelcome.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetupWelcome.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelSetupWelcome.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelUsername.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelUsername.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelUsername.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;labelUsername.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkCustomServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkCustomServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkCustomServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkCustomServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkRegister.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkRegister.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkRegister.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;linkRegister.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionCustomServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionCustomServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionCustomServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionCustomServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionFileShare.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionFileShare.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionFileShare.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionFileShare.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionOfficialServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionOfficialServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionOfficialServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;optionOfficialServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageChangeCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageChangeCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageCredentials.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageCredentials.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageCryptoKeyChanged.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageCryptoKeyChanged.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageExistingCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageExistingCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageNewCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageNewCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageRegister.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageRegister.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetClient.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetClient.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetClientFinished.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetClientFinished.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetServerFinished.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetServerFinished.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetWelcome.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageResetWelcome.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageSetupFinished.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageSetupFinished.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageSetupWelcome.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;pageSetupWelcome.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKey.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKey.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKey.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKey.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyChange.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyChange.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyChange.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyChange.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyNew.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyNew.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyNew.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyNew.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyReset.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyReset.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyReset.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCryptoKeyReset.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCustomServer.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCustomServer.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCustomServer.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxCustomServer.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxFileShare.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxFileShare.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxFileShare.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxFileShare.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxPassword.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxPassword.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxPassword.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxPassword.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxUsername.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxUsername.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxUsername.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;textBoxUsername.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;wizardControl.Name" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;wizardControl.Parent" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;wizardControl.Type" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;wizardControl.ZOrder" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.StartPosition" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="$this.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonChangeCryptoKey.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonChangeCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonChangeCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonChangeCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
     <value>Ich möchte meinen &amp;Crypto-Schlüssel ändern</value>
   </data>
-  <data name="labelResetWelcome.Text" xml:space="preserve">
-    <value>Dieser Assistent kann Ihnen dabei helfen, eine Reihe möglicher Sync Probleme zu beheben. Um welchen Sachverhalt geht es?</value>
+  <data name="buttonFileShareBrowse.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageResetWelcome.Text" xml:space="preserve">
-    <value>Sync Problembehebung</value>
+  <data name="buttonFileShareBrowse.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelChangeCryptoKey.Text" xml:space="preserve">
+  <data name="buttonFileShareBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonFileShareBrowse.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonFileShareBrowse.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonFileShareBrowse.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonForgotKey.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonForgotKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonForgotKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonForgotKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonForgotKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Schlüssel &amp;vergessen</value>
+  </data>
+  <data name="buttonResetClient.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetClient.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetClient.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ich möchte meine &amp;lokalen Daten ersetzen</value>
+  </data>
+  <data name="buttonResetServer.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Die &amp;Serverdaten sind beschädigt</value>
+  </data>
+  <data name="buttonSetupFirst.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonSetupFirst.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonSetupFirst.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonSetupFirst.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonSetupFirst.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ja, dies ist der &amp;erste Rechner</value>
+  </data>
+  <data name="buttonSetupSubsequent.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonSetupSubsequent.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonSetupSubsequent.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonSetupSubsequent.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="buttonSetupSubsequent.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Nein, ich habe bereits &amp;andere Rechner eingerichtet</value>
+  </data>
+  <data name="groupCustomServer.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupCustomServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupCustomServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupCustomServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupFileShare.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupFileShare.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupFileShare.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="groupFileShare.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelChangeCryptoKey.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelChangeCryptoKey.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelChangeCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelChangeCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelChangeCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
     <value>Sie sollten Zero Install Sync nicht auf anderen Rechner ausführen während dieser Prozess läuft.</value>
   </data>
-  <data name="labelCryptoKeyChange.Text" xml:space="preserve">
+  <data name="labelCredentials.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCredentials.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCredentials.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCredentials.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCredentials.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Bitte geben Sie Ihre Zugangsdaten für den Sync-Server ein:</value>
+  </data>
+  <data name="labelCryptoKey.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKey.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel:</value>
+  </data>
+  <data name="labelCryptoKeyChange.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChange.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChange.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChange.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChange.Text" type="System.Drawing.Point, System.Drawing">
     <value>Neuer Crypto-&amp;Schlüssel:</value>
   </data>
-  <data name="pageChangeCryptoKey.Text" xml:space="preserve">
-    <value>Crypto-Schlüssel ändern</value>
+  <data name="labelCryptoKeyChanged.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelResetServer.Text" xml:space="preserve">
-    <value>Sie sind dabei die Daten, die auf dem Sync Server gespeichert sind, mit Ihrer lokalen Anwendungsliste zu ersetzen. Alle Änderungen, die Sie auf anderen Rechnern gemacht aber noch nicht mit diesem synchronisiert haben, gehen dabei verloren!</value>
+  <data name="labelCryptoKeyChanged.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelResetServerFinishedHint.Text" xml:space="preserve">
-    <value>Sie sollten die lokalen Daten auf den anderen Rechnern, auf denen Sie Zero Install Sync verwenden, ebenfalls zurücksetzen.</value>
+  <data name="labelCryptoKeyChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="labelResetServerFinished.Text" xml:space="preserve">
-    <value>Die Serverdaten werden zurückgesetzt. Sie können nun Zero Install weiter nutzen.</value>
+  <data name="labelCryptoKeyChanged.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageResetServerFinished.Text" xml:space="preserve">
-    <value>Sync Server zurücksetzen</value>
+  <data name="labelCryptoKeyChanged.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
-  <data name="pageResetServer.Text" xml:space="preserve">
-    <value>Sync Server zurücksetzen</value>
+  <data name="labelCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Der Crypto-Schlüssel wurde geändert. Sie müssen nun den neuen Schlüssel auf allen anderen Computern, die Sie bereits für Zero Install Sync eingerichtet haben, ebenfalls eintragen.</value>
   </data>
-  <data name="labelResetClient.Text" xml:space="preserve">
+  <data name="labelCryptoKeyChangedHint.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChangedHint.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChangedHint.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChangedHint.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChangedHint.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyChangedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Geben Sie den Schlüssel auf anderen Computern mit dem 'Optionen' Fenster ein. Verwenden Sie dort nicht diesen Assistenten, da er nur zur ersten Änderung benötigt wird.</value>
+  </data>
+  <data name="labelCryptoKeyNew.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyNew.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyNew.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyNew.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyNew.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-&amp;Schlüssel:</value>
+  </data>
+  <data name="labelCryptoKeyReset.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyReset.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyReset.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyReset.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelCryptoKeyReset.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Neuer Crypto-&amp;Schlüssel:</value>
+  </data>
+  <data name="labelExistingCryptoKey.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelExistingCryptoKey.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelExistingCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelExistingCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelExistingCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Geben Sie den Crypto-Schlüssel ein, den Sie zuvor auf diesem und/oder anderen Rechnern verwendet haben:</value>
+  </data>
+  <data name="labelNewCryptoKey.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKey.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Der Crypto-Schlüssel wird verwendet, um Ihre Daten lokal zu verschlüsseln, bevor sie an den Server übermittelt werden. Schreiben Sie sich den vorgeschlagenen auf oder wählen Sie einen eigenen.</value>
+  </data>
+  <data name="labelNewCryptoKeyHint.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKeyHint.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKeyHint.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKeyHint.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKeyHint.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelNewCryptoKeyHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Halten Sie diesen Schlüssel geheim und verwenden Sie etwas anderes für Ihr Passwort. Auf diese Weise kann niemand auf Ihre Daten zugreifen, selbst wenn der Server kompromittiert werden würde.</value>
+  </data>
+  <data name="labelPassword.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelPassword.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelPassword.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelPassword.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Passwort:</value>
+  </data>
+  <data name="labelRegister.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelRegister.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelRegister.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Klicken Sie auf diesen Link um einen neuen Sync Account in Ihrem Browser anzulegen:</value>
+  </data>
+  <data name="labelRegister2.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelRegister2.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelRegister2.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelRegister2.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelRegister2.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Nachdem Sie einen Account angelegt, Ihre E-Mail Adresse verifiziert und Ihre Logindaten vermerkt haben haben, klicken Sie auf "Fortsetzen".</value>
+  </data>
+  <data name="labelResetClient.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClient.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClient.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClient.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClient.Text" type="System.Drawing.Point, System.Drawing">
     <value>Sie sind dabei Ihre lokale Anwendungsliste mit den Daten, die auf dem Sync Server gespeichert sind, zu ersetzen. Alle Änderungen, die Sie lokal gemacht aber noch nicht synchronisiert haben, gehen dabei verloren!</value>
   </data>
-  <data name="labelResetClientFinished.Text" xml:space="preserve">
+  <data name="labelResetClientFinished.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClientFinished.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClientFinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClientFinished.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClientFinished.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
     <value>Die lokale Anwendungsliste wird zurückgesetzt. Sie können nun Zero Install weiter nutzen.</value>
   </data>
-  <data name="pageResetClientFinished.Text" xml:space="preserve">
+  <data name="labelResetCryptoKey.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetCryptoKey.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Alle Änderungen, die Sie auf anderen Rechnern gemacht aber noch nicht mit diesem synchronisiert haben, gehen hierbei verloren!</value>
+  </data>
+  <data name="labelResetServer.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServer.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sie sind dabei die Daten, die auf dem Sync Server gespeichert sind, mit Ihrer lokalen Anwendungsliste zu ersetzen. Alle Änderungen, die Sie auf anderen Rechnern gemacht aber noch nicht mit diesem synchronisiert haben, gehen dabei verloren!</value>
+  </data>
+  <data name="labelResetServerFinished.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinished.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinished.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinished.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Die Serverdaten werden zurückgesetzt. Sie können nun Zero Install weiter nutzen.</value>
+  </data>
+  <data name="labelResetServerFinishedHint.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinishedHint.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinishedHint.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinishedHint.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinishedHint.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetServerFinishedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sie sollten die lokalen Daten auf den anderen Rechnern, auf denen Sie Zero Install Sync verwenden, ebenfalls zurücksetzen.</value>
+  </data>
+  <data name="labelResetWelcome.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetWelcome.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetWelcome.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetWelcome.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Dieser Assistent kann Ihnen dabei helfen, eine Reihe möglicher Sync Probleme zu beheben. Um welchen Sachverhalt geht es?</value>
+  </data>
+  <data name="labelServer.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServer.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>0install.de bietet kostenlose Konten zum Speichern von Sync-Daten an. Alle Daten werden verschlüsselt bevor sie zum Server übermittelt werden. Sie können auch einen eigenen Server verwenden, wenn Sie möchten.</value>
+  </data>
+  <data name="labelServerType.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServerType.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServerType.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServerType.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServerType.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServerType.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelServerType.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Welchen Server möchten Sie verwenden?</value>
+  </data>
+  <data name="labelSetup.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetup.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetup.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetup.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetup.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetup.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ist dies der erste Rechner, den Sie für Zero Install Sync einrichten?</value>
+  </data>
+  <data name="labelSetupFinished.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupFinished.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupFinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupFinished.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupFinished.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync ist nun eingerichtet und bereit zum Einsatz. Führen Sie diesen Assistenten auf allen anderen Rechnern aus, die Sie mit diesem synchronisieren möchten.</value>
+  </data>
+  <data name="labelSetupWelcome.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupWelcome.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupWelcome.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupWelcome.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync nimmt Ihre Anwendungsliste und Desktopintegrationen und gleicht diese automatisch mit Ihren anderen Rechnern ab.</value>
+  </data>
+  <data name="labelUsername.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUsername.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUsername.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUsername.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="labelUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Benutzername:</value>
+  </data>
+  <data name="linkCustomServer.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkCustomServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkCustomServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkCustomServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Wie richte ich meinen eigenen Sync Server ein?</value>
+  </data>
+  <data name="linkRegister.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkRegister.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkRegister.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkRegister.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="linkRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Registieren</value>
+  </data>
+  <data name="optionCustomServer.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionCustomServer.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionCustomServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionCustomServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionCustomServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Verwende &amp;eigenen Server:</value>
+  </data>
+  <data name="optionFileShare.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionFileShare.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionFileShare.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionFileShare.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionFileShare.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionFileShare.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Verwende Windows &amp;Dateifreigabe:</value>
+  </data>
+  <data name="optionOfficialServer.AutoSize" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionOfficialServer.ImeMode" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionOfficialServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionOfficialServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionOfficialServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="optionOfficialServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Verwende den &amp;0install.de Server (empfohlen)</value>
+  </data>
+  <data name="pageChangeCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageChangeCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel ändern</value>
+  </data>
+  <data name="pageCredentials.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageCredentials.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Konto</value>
+  </data>
+  <data name="pageCryptoKeyChanged.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageCryptoKeyChanged.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel geändert</value>
+  </data>
+  <data name="pageExistingCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageExistingCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel</value>
+  </data>
+  <data name="pageNewCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageNewCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel</value>
+  </data>
+  <data name="pageRegister.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageRegister.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Konto</value>
+  </data>
+  <data name="pageResetClient.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetClient.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetClient.Text" type="System.Drawing.Point, System.Drawing">
     <value>Lokale Daten zurücksetzen</value>
   </data>
-  <data name="pageResetClient.Text" xml:space="preserve">
+  <data name="pageResetClientFinished.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetClientFinished.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
     <value>Lokale Daten zurücksetzen</value>
+  </data>
+  <data name="pageResetCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel zurücksetzen</value>
+  </data>
+  <data name="pageResetServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Server zurücksetzen</value>
+  </data>
+  <data name="pageResetServerFinished.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetServerFinished.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Server zurücksetzen</value>
+  </data>
+  <data name="pageResetWelcome.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetWelcome.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Problembehebung</value>
+  </data>
+  <data name="pageServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageSetupFinished.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageSetupFinished.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="pageSetupWelcome.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageSetupWelcome.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="pageSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync einrichten</value>
+  </data>
+  <data name="textBoxCryptoKey.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKey.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKey.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyChange.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyChange.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyChange.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyNew.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyNew.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyNew.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyReset.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyReset.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCryptoKeyReset.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCustomServer.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCustomServer.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCustomServer.HintText" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCustomServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCustomServer.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxCustomServer.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxFileShare.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxFileShare.Enabled" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxFileShare.HintText" type="System.Drawing.Point, System.Drawing">
+    <value>Verzeichnispfad</value>
+  </data>
+  <data name="textBoxFileShare.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxFileShare.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxFileShare.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxPassword.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxPassword.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxPassword.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxUsername.Anchor" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxUsername.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="textBoxUsername.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="wizardControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="wizardControl.Size" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="wizardControl.TabIndex" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="wizardControl.Title" type="System.Drawing.Point, System.Drawing">
+    <value></value>
+  </data>
+  <data name="wizardControl.TitleIcon" type="System.Drawing.Point, System.Drawing">
+    <value></value>
   </data>
 </root>
