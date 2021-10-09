@@ -1,0 +1,33 @@
+name: Create translation pull request
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only if resx files where involved
+on:
+  push:
+    paths:
+    - '**.resx'
+
+# GitHub automatically creates a GITHUB_TOKEN secret to use in your workflow.
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:          
+      - uses: actions/checkout@main
+
+      # Translate and combine ResX files
+      - name: Translation and Combination
+        id: translator
+        uses: Yeah69/MrMeeseeks.ResXTranslationCombinator@main
+        with:
+          # The authentication key of the DeepL API access
+          auth: ${{ secrets.DEEPL_API_AUTH_KEY }}
+          data-copies-regex: '(SyncWizard\.resx|ImageResources\.resx|.+[Form|Dialog]\.resx)'
+
+      - name: create-pull-request
+        uses: peter-evans/create-pull-request@main
+        with:
+          title: '${{ steps.translator.outputs.summary-title }}'
+          commit-message: '${{ steps.translator.outputs.summary-details }}'
