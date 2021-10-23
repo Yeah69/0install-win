@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Jag vill byta min kryptonyckel</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonForgotKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Glömd nyckel</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Jag vill ersätta mina &amp;local data</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>De data som lagras på &amp;servern är skadade</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonSetupFirst.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ja, detta är den &amp;första datorn</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonSetupSubsequent.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Nej, jag har redan installerat andra datorer.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Du bör inte köra Zero Install Sync på andra datorer medan den här processen pågår.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ange dina inloggningsuppgifter för Sync-servern nedan:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krypto &amp; nyckel:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChange.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ny krypto &amp; nyckel:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kryptonyckeln har ändrats. Nu måste du ange den nya nyckeln på alla andra datorer som du redan har konfigurerat för Zero Install Sync.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChangedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ange nyckeln på andra datorer genom att använda fönstret Alternativ. Använd inte guiden där eftersom den bara behövs för att utföra den första ändringen.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyNew.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krypto &amp; nyckel:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyReset.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ny krypto &amp; nyckel:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ange den kryptonyckel som du tidigare har använt på den här datorn och/eller andra datorer:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kryptonyckeln används för att kryptera dina data lokalt innan de överförs till servern. Skriv ner den föreslagna nyckeln eller välj en egen.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelNewCryptoKeyHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Håll nyckeln hemlig och använd något annat som lösenord. På så sätt kan ingen få tillgång till dina uppgifter, även om servern skulle bli skadad.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Password:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Klicka på följande länk för att skapa ett nytt Sync-konto i din webbläsare:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelRegister2.Text" type="System.Drawing.Point, System.Drawing">
+    <value>När du har skapat ett konto, verifierat din e-postadress och antecknat dina inloggningsuppgifter klickar du på "Nästa".
+</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Du är på väg att ersätta din lokala programlista med data som lagras på Sync-servern. Alla ändringar som du har gjort lokalt men som ännu inte har synkroniserats går förlorade!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Den lokala programlistan håller på att återställas. Du kan nu fortsätta att använda Zero Install.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Alla ändringar som du har gjort på andra datorer men som ännu inte har synkroniserats med den här datorn går förlorade!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Du är på väg att ersätta data som lagras på Sync-servern med din lokala programlista. Alla ändringar som du har gjort på andra datorer men som ännu inte har synkroniserats med den här datorn går förlorade!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Serverns data håller på att återställas. Du kan nu fortsätta använda Zero Install.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServerFinishedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Du kanske också vill återställa de lokala uppgifterna på andra datorer som du använder Zero Install Sync på.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Den här guiden kan hjälpa dig att lösa ett antal möjliga synkroniseringsproblem. Vilket problem vill du lösa?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>0install.de tillhandahåller gratiskonton för lagring av synkroniseringsdata. Alla data krypteras lokalt innan de överförs till servern. Du kan använda din egen server för lagring i stället om du vill.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServerType.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Vilken server vill du använda?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetup.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Är det här den första datorn som du konfigurerar för Zero Install Sync?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync är nu konfigurerad och redo att användas. Kör guiden på alla andra datorer som du vill hålla synkroniserade med den här datorn.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync tar din programlista och dina skrivbordsintegrationer och överför dem automatiskt till dina andra datorer.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;användarnamn:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Hur konfigurerar jag min egen Sync-server?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Registrera</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Använd en c&amp;ustom-server:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionFileShare.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Använd en Windows &amp;file share:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionOfficialServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Använd &amp;0install.de-servern (rekommenderas)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ändra kryptonyckel</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Synkronisera konto</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kryptonyckel har ändrats</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kryptonyckel</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kryptonyckel</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Synkronisera konto</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Återställ lokala data</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Återställ lokala data</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Återställ kryptonyckel</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Återställ Sync-server</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Återställ Sync-server</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Felsökning av synkronisering</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Setup slutförd</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Inställning av synkronisering</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="textBoxFileShare.HintText" type="System.Drawing.Point, System.Drawing">
+    <value>Katalogsökväg</value>
+    <comment>Automatically Translated</comment>
+  </data>
+</root>

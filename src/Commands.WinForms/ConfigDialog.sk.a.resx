@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="implDirBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Konfigurácia nulovej inštalácie</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAddCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;dd</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAddImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;dd</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAdvancedShow.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zobraziť &amp;rozšírené možnosti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonGoToCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Go to</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonGoToImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Go to</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Odstrániť</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Odstrániť</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveTrustedKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Odstrániť</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetCatalogSources.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Reset</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="checkBoxAutoApproveKeys.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;automaticky schvaľovať nové kľúče (ak ich server kľúčov pozná)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="checkBoxHelpWithTesting.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Help testovanie nových verzií</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupCatalogSources.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Katalóg a zdroje</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupFreshness.Text" type="System.Drawing.Point, System.Drawing">
+    <value>F&amp;reshness</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupImplDirs.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Implementácia adresárov vyrovnávacej pamäte</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupNetworkUse.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Používanie siete</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupStability.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Stabilita</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupTrustedKeys.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Dôveryhodné kľúče</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="implDirBrowserDialog.Description" type="System.Drawing.Point, System.Drawing">
+    <value>Vyberte alebo vytvorte adresár, ktorý chcete použiť ako implementačnú vyrovnávaciu pamäť.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelAdvancedWarning.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Varovanie: Zmena týchto možností môže zabrániť správnemu fungovaniu Zero Install.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelLanguage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tým sa ovláda jazyk:
+- Samotná inštalácia nuly a
+- aplikácií stiahnutých programom Zero Install.
+
+Poznámky:
+- Preklady nie sú k dispozícii pre všetky jazyky.
+- Aby sa jazykové zmeny prejavili, je potrebné reštartovať aplikáciu Zero Install.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Server:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Crypto key:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Heslo:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;username:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkSyncAccount.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Správa účtu</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseFull.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Full (bežné používanie siete)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseMinimal.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Minimal (uprednostňujete verzie v medzipamäti)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseOffline.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Offline (nepoužívajte sieť)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageAdvanced.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Pokročilé</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageCatalog.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Katalóg</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageLanguage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Jazyk</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageStorage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Úložisko</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageSync.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Synchronizácia</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageTrust.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Trust</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageUpdates.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Aktualizácie</value>
+    <comment>Automatically Translated</comment>
+  </data>
+</root>

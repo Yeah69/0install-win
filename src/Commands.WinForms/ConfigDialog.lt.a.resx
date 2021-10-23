@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="implDirBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Text" type="System.Drawing.Point, System.Drawing">
+    <value>"Zero Install" konfigūracija</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAddCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;dd</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAddImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;dd</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAdvancedShow.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Rodyti ir išplėstines parinktis</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonGoToCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Go to</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonGoToImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Go to</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Panaikinti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Panaikinti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveTrustedKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Panaikinti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetCatalogSources.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Reset</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="checkBoxAutoApproveKeys.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;automatinis naujų raktų patvirtinimas (jei raktų serveris apie tai žino)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="checkBoxHelpWithTesting.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Help išbandyti naujas versijas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupCatalogSources.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Katalogas ir šaltiniai</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupFreshness.Text" type="System.Drawing.Point, System.Drawing">
+    <value>"F&amp;reshness</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupImplDirs.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Implementation talpyklos katalogai</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupNetworkUse.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tinklo naudojimas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupStability.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Stabilumas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupTrustedKeys.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Patikimi raktai</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="implDirBrowserDialog.Description" type="System.Drawing.Point, System.Drawing">
+    <value>Pasirinkite arba sukurkite katalogą, kuris bus naudojamas kaip diegimo talpykla.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelAdvancedWarning.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Įspėjimas: Keičiant šias parinktis, "Zero Install" gali neveikti teisingai.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelLanguage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tai kontroliuoja kalbą:
+- "Zero Install" ir
+- "Zero Install" atsisiųstoms programoms.
+
+Pastabos:
+- Vertimai galimi ne visomis kalbomis.
+- Kad kalbų pakeitimai įsigaliotų, turite iš naujo paleisti "Zero Install".</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Server:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Crypto key:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Password:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;username:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkSyncAccount.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tvarkyti paskyrą</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseFull.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Full (įprastas tinklo naudojimas)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseMinimal.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Minimal (pirmenybė teikiama talpykloms)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseOffline.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Offline (nesinaudokite tinklu)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageAdvanced.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Išplėstinė</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageCatalog.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Katalogas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageLanguage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kalba</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageStorage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Saugykla</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageSync.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sinchronizavimas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageTrust.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Pasitikėjimas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageUpdates.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Atnaujinimai</value>
+    <comment>Automatically Translated</comment>
+  </data>
+</root>

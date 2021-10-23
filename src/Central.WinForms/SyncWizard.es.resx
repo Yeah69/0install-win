@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Quiero &amp; cambiar mi clave criptográfica</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonForgotKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Llave olvidada</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Quiero reemplazar mis datos &amp;local</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Los datos almacenados en el &amp;servidor están dañados</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonSetupFirst.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sí, este es el &amp;primer ordenador</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="buttonSetupSubsequent.Text" type="System.Drawing.Point, System.Drawing">
+    <value>No, ya he configurado &amp; otros ordenadores</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>No debe ejecutar la Sincronización de la Instalación Cero en otros ordenadores mientras se esté ejecutando este proceso.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Por favor, introduzca sus credenciales de acceso al servidor de sincronización a continuación:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto &amp;key:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelCryptoKeyChange.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Nueva criptomoneda:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>La clave criptográfica ha sido cambiada. Ahora tendrá que introducir la nueva clave en todos los demás ordenadores que ya haya configurado para la Sincronización de la Instalación Cero.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelCryptoKeyChangedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Introduzca la clave en otros ordenadores mediante la ventana "Opciones". No utilice este asistente allí ya que sólo es necesario para realizar el cambio inicial.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelCryptoKeyNew.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto &amp;key:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelCryptoKeyReset.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Nueva criptomoneda:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Por favor, introduzca la clave criptográfica que utilizó anteriormente en este y/o otros ordenadores:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>La clave criptográfica se utiliza para cifrar sus datos localmente antes de transmitirlos al servidor. Escriba la sugerida o elija la suya propia.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelNewCryptoKeyHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Mantenga esta clave en secreto y utilice algo diferente para su contraseña. Así nadie podrá acceder a tus datos, incluso si el servidor se viera comprometido.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Contraseña:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Haga clic en el siguiente enlace para crear una nueva cuenta Sync en su navegador:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelRegister2.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Una vez que haya creado una cuenta, verificado su dirección de correo electrónico y anotado sus credenciales de acceso, haga clic en "Siguiente".
+</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Está a punto de sustituir su lista de aplicaciones local por los datos almacenados en el servidor de sincronización. Cualquier cambio que haya hecho localmente pero que aún no se haya sincronizado se perderá.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>La lista de aplicaciones locales se está restableciendo. Ahora puede seguir utilizando la Instalación Cero.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Cualquier cambio que hayas hecho en otros ordenadores pero que no se haya sincronizado con este se perderá.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Está a punto de sustituir los datos almacenados en el servidor de sincronización por su lista de aplicaciones local. Cualquier cambio que haya realizado en otros ordenadores pero que aún no se haya sincronizado con éste se perderá.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Los datos del servidor se están restableciendo. Ahora puede seguir utilizando la Instalación Cero.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelResetServerFinishedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Es posible que también desee restablecer los datos locales en otros ordenadores en los que esté utilizando Zero Install Sync.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Este asistente puede ayudarle a resolver una serie de posibles problemas de sincronización. ¿Qué problema desea resolver?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>0install.de ofrece cuentas gratuitas para el almacenamiento de datos de sincronización. Todos los datos se encriptan localmente antes de ser transmitidos al servidor. Si lo desea, puede utilizar su propio servidor para el almacenamiento.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelServerType.Text" type="System.Drawing.Point, System.Drawing">
+    <value>¿Qué servidor quiere utilizar?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSetup.Text" type="System.Drawing.Point, System.Drawing">
+    <value>¿Es éste el primer ordenador que está configurando para la Sincronización de Instalación Cero?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>La Sincronización de Instalación Cero está ahora configurada y lista para ser utilizada. Ejecute este asistente en cualquier otro ordenador que desee mantener sincronizado con éste.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync toma tu lista de aplicaciones e integraciones de escritorio y las transfiere automáticamente a tus otros ordenadores.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="labelUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;nombre de usuario:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="linkCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>¿Cómo configuro mi propio servidor de sincronización?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="linkRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Registro</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="optionCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Utiliza un servidor c&amp;ustom:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="optionFileShare.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Utiliza un recurso compartido de Windows &amp;file:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="optionOfficialServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Utilice el servidor &amp;0install.de (recomendado)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Cambiar la clave criptográfica</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Cuenta de sincronización</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Clave criptográfica cambiada</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Clave criptográfica</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Clave criptográfica</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Cuenta de sincronización</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Restablecer los datos locales</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Restablecer los datos locales</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Restablecer la clave criptográfica</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Reiniciar el servidor de sincronización</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Reiniciar el servidor de sincronización</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Solución de problemas de sincronización</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Configuración de la sincronización completa</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="pageSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Configuración de la sincronización</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="textBoxFileShare.HintText" type="System.Drawing.Point, System.Drawing">
+    <value>Ruta del directorio</value>
+    <comment>Automatically translated.</comment>
+  </data>
+</root>

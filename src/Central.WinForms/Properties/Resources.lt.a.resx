@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel" xml:space="preserve">
+    <value>Atšaukti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="CommandLineHint" xml:space="preserve">
+    <value>Įveskite "0install --help", kad pamatytumėte galimų komandų sąrašą.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Tęsti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="DeployNotification" xml:space="preserve">
+    <value>Spustelėkite norėdami nustatyti "Zero Install" šiame kompiuteryje...</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="EnterFeedUrl" xml:space="preserve">
+    <value>Čia įveskite "Zero Install" kanalo URL adresą:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="ForAllUsers" xml:space="preserve">
+    <value>Visiems naudotojams</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="ForCurrentUser" xml:space="preserve">
+    <value>Dabartiniam naudotojui</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IgnoringDuplicateAppListEntry" xml:space="preserve">
+    <value>Dubliuojančio programos įrašo '{0}' ignoravimas.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Integrate" xml:space="preserve">
+    <value>Integruota (pradžios meniu ir kt.)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroCommonApp" xml:space="preserve">
+    <value>Bendra programa</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroCommonAppSummary" xml:space="preserve">
+    <value>atlieka įprastus veiksmus.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroCoolApp" xml:space="preserve">
+    <value>Šauni programa</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroCoolAppSummary" xml:space="preserve">
+    <value>daro kažką šaunaus.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroOtherApp" xml:space="preserve">
+    <value>Kita programa</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroOtherAppSummary" xml:space="preserve">
+    <value>daro ką nors kita.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesAddApp" xml:space="preserve">
+    <value>Jei patinka programėlė,
+įtraukite ją į "Mano programėlės".</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesCatalogSearch" xml:space="preserve">
+    <value>Ieškokite programos "Kataloge"...</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesIntegrateApp" xml:space="preserve">
+    <value>"Integruoti" programą, kad ji būtų
+į pradžios meniu arba darbalaukį.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesMyApps" xml:space="preserve">
+    <value>Mėgstamiausių programų sąrašą galite tvarkyti čia.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesRunApp" xml:space="preserve">
+    <value>... ir paleiskite jį!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesThanks" xml:space="preserve">
+    <value>Smagiai praleiskite laiką!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesWelcome" xml:space="preserve">
+    <value>Naudojant "Zero Install" nereikia diegti programų.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="MachineWideMode" xml:space="preserve">
+    <value>Mašinos režimas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="ModifyIntegration" xml:space="preserve">
+    <value>Keisti integraciją</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="MyAppsAdd" xml:space="preserve">
+    <value>Pridėti prie "Mano programos"</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="MyAppsAdded" xml:space="preserve">
+    <value>Pridėta prie "Mano programos".</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="MyAppsAddedAndIntegrate" xml:space="preserve">
+    <value>Pridėta prie "Mano programos" ir integruota į darbalaukio aplinką.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="PortableDirNotEmptyAsk" xml:space="preserve">
+    <value>Katalogas {0} nėra tuščias.
+Ar tikrai norite ten patalpinti nešiojamąją "Zero Install" versiją?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="PortableMode" xml:space="preserve">
+    <value>Nešiojamasis režimas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>&amp;Panaikinti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="RemoveSelectedEntries" xml:space="preserve">
+    <value>Ar norite iš sąrašo pašalinti pasirinktus {0} įrašus?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Paleisti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="RunWithOptions" xml:space="preserve">
+    <value>Paleisti su &amp;options</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Ar norite išsaugoti atliktus pakeitimus?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SaveChangesNo" xml:space="preserve">
+    <value>Ne
+Atmesti pakeitimus</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SaveChangesYes" xml:space="preserve">
+    <value>Taip
+Įrašyti pakeitimus</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Paieška</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SelfUpdateNotification" xml:space="preserve">
+    <value>Spustelėkite , jei norite atnaujinti į "Zero Install v{0}"...</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncCompleteSetupFirst" xml:space="preserve">
+    <value>Pirmiausia turite užbaigti sinchronizavimo sąranką.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncCredentialsInvalid" xml:space="preserve">
+    <value>Įvestas neteisingas vartotojo vardas ir (arba) slaptažodis.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncCryptoKeyInvalid" xml:space="preserve">
+    <value>Įvestas šifravimo raktas yra neteisingas.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncReplaceConfigAsk" xml:space="preserve">
+    <value>Ar norite iš naujo nustatyti "Sync" nustatymus ir pradėti viską iš naujo?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncReplaceConfigNo" xml:space="preserve">
+    <value>Ne
+redaguoti esamus nustatymus</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncReplaceConfigYes" xml:space="preserve">
+    <value>Taip
+Pradėti nuo nulio</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncServerDataDamaged" xml:space="preserve">
+    <value>Šiuo metu sinchronizavimo serveryje saugomi duomenys yra pažeisti.
+Galite pakeisti serveryje saugomus duomenis pasirinkdami, kad neprisimenate šifravimo rakto.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="UnableToDownloadCatalog" xml:space="preserve">
+    <value>Nepavyksta atsisiųsti programų katalogo.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="UnableToLoadFeedForApp" xml:space="preserve">
+    <value>Nepavyksta įkelti programos įrašo '{0}' kanalo.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="UnencryptedSyncServer" xml:space="preserve">
+    <value>Ar tikrai norite naudoti nešifruotą ryšį su sinchronizavimo serveriu?
+Užšifruotiems ryšiams naudojamas https:// priešdėlis.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>&amp;Atnaujinti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="UpdateAllCleanWillRemove" xml:space="preserve">
+    <value>Taip iš talpyklos bus automatiškai pašalintos po atnaujinimo nebereikalingos realizacijos. Tęsti?
+Svarbu: Programos, kurias anksčiau "Paleisti" nepridėjote į "Mano programos", taip pat bus pašalintos iš talpyklos.  Jei nuspręsite jas paleisti dar kartą, turėsite būti prisijungę prie interneto.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Darbas...</value>
+    <comment>Automatically Translated</comment>
+  </data>
+</root>

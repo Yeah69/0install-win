@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="implDirBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Konfiguracja Zero Install</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAddCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;dd</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAddImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;dd</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonAdvancedShow.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Pokaż i zaawansowane opcje</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonGoToCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Go to</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonGoToImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Go to</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveCatalogSource.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Remove</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveImplDir.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Remove</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonRemoveTrustedKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Remove</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetCatalogSources.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Reset</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="checkBoxAutoApproveKeys.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A&amp;automatyczne zatwierdzanie nowych kluczy (jeśli są znane serwerowi kluczy)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="checkBoxHelpWithTesting.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Pomoc w testowaniu nowych wersji</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupCatalogSources.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Katalog i źródła</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupFreshness.Text" type="System.Drawing.Point, System.Drawing">
+    <value>F&amp;świeżość</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupImplDirs.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Katalogi pamięci podręcznej wdrożenia</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupNetworkUse.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Wykorzystanie sieci</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupStability.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Stabilność</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="groupTrustedKeys.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Zaufane klucze</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="implDirBrowserDialog.Description" type="System.Drawing.Point, System.Drawing">
+    <value>Proszę wybrać lub utworzyć katalog, który będzie używany jako pamięć podręczna do wdrażania.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelAdvancedWarning.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ostrzeżenie: Zmiana tych opcji może uniemożliwić prawidłowe działanie programu Zero Install.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelLanguage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>To kontroluje język:
+- samej instalacji Zero Install oraz
+- aplikacji pobieranych przez Zero Install.
+
+Uwagi:
+- Tłumaczenia nie są dostępne dla wszystkich języków.
+- Aby zmiany językowe zaczęły obowiązywać, należy ponownie uruchomić program Zero Install.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Serwer:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Klucz kryptograficzny:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Hasło:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSyncUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;username:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkSyncAccount.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zarządzaj kontem</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseFull.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Full (normalne korzystanie z sieci)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseMinimal.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Minimal (preferuj wersje buforowane)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="radioNetworkUseOffline.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Offline (nie korzystaj z sieci)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageAdvanced.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zaawansowane</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageCatalog.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Katalog</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageLanguage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Język</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageStorage.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Przechowywanie</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageSync.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Synchronizacja</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageTrust.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zaufanie</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="tabPageUpdates.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Aktualizacje</value>
+    <comment>Automatically Translated</comment>
+  </data>
+</root>
