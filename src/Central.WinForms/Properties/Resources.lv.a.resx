@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel" xml:space="preserve">
+    <value>Atcelt</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="CommandLineHint" xml:space="preserve">
+    <value>Ievadiet '0install --help', lai skatītu pieejamo komandu sarakstu.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Turpināt</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="DeployNotification" xml:space="preserve">
+    <value>Noklikšķiniet, lai iestatītu nulles instalēt šajā datorā...</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="EnterFeedUrl" xml:space="preserve">
+    <value>Lūdzu, ievadiet šeit nulles instalēšanas plūsmas URL:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="ForAllUsers" xml:space="preserve">
+    <value>Visiem lietotājiem</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="ForCurrentUser" xml:space="preserve">
+    <value>Pašreizējam lietotājam</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IgnoringDuplicateAppListEntry" xml:space="preserve">
+    <value>Programmas ieraksta dublēšanas ignorēšana attiecībā uz '{0}'.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Integrate" xml:space="preserve">
+    <value>Integrēta (sākuma izvēlne utt.)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroCommonApp" xml:space="preserve">
+    <value>Kopējā lietotne</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroCommonAppSummary" xml:space="preserve">
+    <value>dara parastās lietas.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroCoolApp" xml:space="preserve">
+    <value>Forša lietotne</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroCoolAppSummary" xml:space="preserve">
+    <value>dara kaut ko foršu</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroOtherApp" xml:space="preserve">
+    <value>Cita lietotne</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroOtherAppSummary" xml:space="preserve">
+    <value>dara kaut ko citu</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesAddApp" xml:space="preserve">
+    <value>Ja jums patīk lietotne,
+pievienojiet to sadaļai "Manas programmas".</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesCatalogSearch" xml:space="preserve">
+    <value>Meklējiet lietotni "Katalogā"...</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesIntegrateApp" xml:space="preserve">
+    <value>"Integrēt" lietotni, lai to
+sākuma izvēlnē vai darbvirsmā.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesMyApps" xml:space="preserve">
+    <value>Šeit varat pārvaldīt savu iecienītāko programmu sarakstu.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesRunApp" xml:space="preserve">
+    <value>... un palaist to!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesThanks" xml:space="preserve">
+    <value>Priecājieties!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="IntroSubtitlesWelcome" xml:space="preserve">
+    <value>Izmantojot nulles instalēšanas funkciju, jums nav jāinstalē programmas.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="MachineWideMode" xml:space="preserve">
+    <value>Mašīnas režīms</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="ModifyIntegration" xml:space="preserve">
+    <value>Mainīt integrāciju</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="MyAppsAdd" xml:space="preserve">
+    <value>Pievienot sadaļai "Manas programmas"</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="MyAppsAdded" xml:space="preserve">
+    <value>Pievienots sadaļai "Manas programmas".</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="MyAppsAddedAndIntegrate" xml:space="preserve">
+    <value>Pievienots sadaļai "Manas programmas" un integrēts darbvirsmas vidē.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="PortableDirNotEmptyAsk" xml:space="preserve">
+    <value>Katalogs {0} nav tukšs.
+Vai esat pārliecināts, ka vēlaties tur ievietot pārnēsājamo Zero Install versiju?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="PortableMode" xml:space="preserve">
+    <value>Portatīvais režīms</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>&amp;Atcelt</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="RemoveSelectedEntries" xml:space="preserve">
+    <value>Vai vēlaties no saraksta dzēst atlasītos ierakstus {0}?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Palaist</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="RunWithOptions" xml:space="preserve">
+    <value>Palaist ar &amp;options</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Vai vēlaties saglabāt veiktās izmaiņas?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SaveChangesNo" xml:space="preserve">
+    <value>Nē
+Izmest izmaiņas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SaveChangesYes" xml:space="preserve">
+    <value>Jā
+Saglabāt izmaiņas</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Meklēšana</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SelfUpdateNotification" xml:space="preserve">
+    <value>Noklikšķiniet, lai atjauninātu nulles instalēšanas v{0}...</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncCompleteSetupFirst" xml:space="preserve">
+    <value>Vispirms ir jāpabeidz sinhronizācijas iestatīšana.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncCredentialsInvalid" xml:space="preserve">
+    <value>Jūsu ievadītais lietotājvārds un/vai parole ir nepareizi.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncCryptoKeyInvalid" xml:space="preserve">
+    <value>Ievadītā šifrēšanas atslēga ir nepareiza.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncReplaceConfigAsk" xml:space="preserve">
+    <value>Vai vēlaties atiestatīt sinhronizācijas iestatījumus un sākt no nulles?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncReplaceConfigNo" xml:space="preserve">
+    <value>Nē
+rediģēt esošos iestatījumus</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncReplaceConfigYes" xml:space="preserve">
+    <value>Jā
+Sākt no nulles</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="SyncServerDataDamaged" xml:space="preserve">
+    <value>Sinhronizācijas serverī pašlaik saglabātie dati ir bojāti.
+Varat aizstāt serverī saglabātos datus, izvēloties, ka neatceraties šifrēšanas atslēgu.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="UnableToDownloadCatalog" xml:space="preserve">
+    <value>Nevar lejupielādēt lietojumprogrammu katalogu.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="UnableToLoadFeedForApp" xml:space="preserve">
+    <value>Nevar ielādēt lietotnes ieraksta '{0}' plūsmu.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="UnencryptedSyncServer" xml:space="preserve">
+    <value>Vai esat pārliecināts, ka vēlaties izmantot nešifrētu savienojumu ar sinhronizācijas serveri?
+Šifrētos savienojumos tiek izmantots prefikss https://.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>&amp;Atjaunināt</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="UpdateAllCleanWillRemove" xml:space="preserve">
+    <value>Tādējādi no kešatmiņas automātiski tiks noņemtas implementācijas, kas pēc atjaunināšanas vairs nav nepieciešamas. Turpināt?
+Svarīgi: no kešatmiņas tiks noņemtas arī programmas, kuras iepriekš esat "Palaist", nepievienojot tās sadaļā "Manas programmas".  Jums būs jābūt tiešsaistē, ja nolemsiet tās palaist vēlreiz.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Darbs...</value>
+    <comment>Automatically Translated</comment>
+  </data>
+</root>
