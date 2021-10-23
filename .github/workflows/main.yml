@@ -24,7 +24,7 @@ jobs:
         with:
           # The authentication key of the DeepL API access
           auth: ${{ secrets.DEEPL_API_AUTH_KEY }}
-          data-copies-regex: '(SyncWizard\.resx|ImageResources\.resx|.+[Form|Dialog]\.resx)'
+          filter-keys-with-overrides: 'true'
 
       - name: create-pull-request
         uses: peter-evans/create-pull-request@main
