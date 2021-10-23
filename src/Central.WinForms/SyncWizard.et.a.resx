@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ma tahan &amp;vahetada oma krüpto võtit</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonForgotKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Forgot võti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ma tahan asendada oma &amp;lokaalsed andmed</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;serveril salvestatud andmed on kahjustatud.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonSetupFirst.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Jah, see on &amp; esimene arvuti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonSetupSubsequent.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ei, ma olen juba seadistanud &amp;muud arvutid</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Te ei tohiks Zero Install Sync'i käivitada teistes arvutites, kui see protsess on käimas.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Palun sisestage allpool oma Sünkroonimisserveri sisselogimise andmed:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto &amp;key:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChange.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Uus krüpto &amp;key:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krüptovõtit on muudetud. Nüüd peate sisestama uue võtme kõikidesse teistesse arvutitesse, mille olete juba seadistanud Zero Install Sync'i jaoks.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChangedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sisestage võti teistes arvutites, kasutades akent "Valikud". Ärge kasutage seda viisardit seal, kuna see on vajalik ainult esialgse muudatuse tegemiseks.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyNew.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto &amp;key:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyReset.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Uus krüpto &amp;key:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Palun sisestage krüptovõtme, mida olete varem kasutanud selles ja/või teistes arvutites:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krüptovõtit kasutatakse andmete krüpteerimiseks lokaalselt enne nende edastamist serverisse. Kirjutage üles soovitatud või valige oma.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelNewCryptoKeyHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Hoidke see võti salajas ja kasutage oma parooliks midagi muud. Nii ei pääse keegi teie andmetele ligi, isegi kui server satub ohtu.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Password:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Uue Sync-konto loomiseks brauseris klõpsake järgmisel lingil:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelRegister2.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kui olete loonud konto, kinnitanud oma e-posti aadressi ja märkinud oma sisselogimise andmed, klõpsake nupule "Edasi".
+</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Te kavatsete asendada oma kohaliku rakenduste loendi Sync-serveris salvestatud andmetega. Kõik muudatused, mida olete lokaalselt teinud, kuid mida pole veel sünkroniseeritud, lähevad kaduma!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kohalike rakenduste nimekiri on lähtestatud. Nüüd saate jätkata Zero Install'i kasutamist.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kõik muudatused, mida olete teinud teistes arvutites, kuid mida pole veel selle arvutiga sünkroniseeritud, lähevad kaduma!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Te kavatsete asendada Sync-serverisse salvestatud andmed oma kohaliku rakenduste loendiga. Kõik muudatused, mida olete teinud teistes arvutites, kuid mida pole veel selle arvutiga sünkroniseeritud, lähevad kaduma!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Serveri andmed on lähtestatud. Nüüd saate jätkata Zero Install'i kasutamist.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServerFinishedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Samuti võite soovida nullida kohalikud andmed teistes arvutites, kus te kasutate Zero Install Sync'i.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>See nõustaja aitab teil lahendada mitmeid võimalikke sünkroonimisprobleeme. Millist probleemi soovite lahendada?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>0install.de pakub tasuta kontosid Sync-andmete salvestamiseks. Kõik andmed krüpteeritakse lokaalselt enne serverisse edastamist. Soovi korral võite salvestamiseks kasutada hoopis oma serverit.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServerType.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Millist serverit soovite kasutada?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetup.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kas see on esimene arvuti, mida te seadistate Zero Install Sync'i jaoks?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync on nüüd seadistatud ja kasutusvalmis. Käivitage see nõustaja teistes arvutites, mida soovite selle arvutiga sünkroonida.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync võtab teie rakenduste loendi ja töölaua integratsioonid ning kannab need automaatselt üle teistesse arvutitesse.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;username:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kuidas luua oma Sync-server?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Registreeri</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kasutage c&amp;ustom serverit:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionFileShare.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kasutage Windowsi &amp;faili jagamist:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionOfficialServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kasutage &amp;0install.de serverit (soovitatav)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krüptovõtme muutmine</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sünkroonimiskonto</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krüptovõtme muutmine</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krüpto võti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krüpto võti</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sünkroonimiskonto</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kohalike andmete lähtestamine</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kohalike andmete lähtestamine</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Krüptovõtme lähtestamine</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sünkroonimisserveri lähtestamine</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sünkroonimisserveri lähtestamine</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sünkroonimise tõrkeotsing</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sünkroonimise seadistamine lõpetatud</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sünkroonimise seadistamine</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="textBoxFileShare.HintText" type="System.Drawing.Point, System.Drawing">
+    <value>Kataloogi tee</value>
+    <comment>Automatically Translated</comment>
+  </data>
+</root>

@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ich möchte meinen &amp;Crypto-Schlüssel ändern</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonForgotKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Schlüssel &amp;vergessen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ich möchte meine &amp;lokalen Daten ersetzen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Die &amp;Serverdaten sind beschädigt</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonSetupFirst.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ja, dies ist der &amp;erste Rechner</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="buttonSetupSubsequent.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Nein, ich habe bereits &amp;andere Rechner eingerichtet</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sie sollten Zero Install Sync nicht auf anderen Rechner ausführen während dieser Prozess läuft.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Bitte geben Sie Ihre Zugangsdaten für den Sync-Server ein:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelCryptoKeyChange.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Neuer Crypto-&amp;Schlüssel:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Der Crypto-Schlüssel wurde geändert. Sie müssen nun den neuen Schlüssel auf allen anderen Computern, die Sie bereits für Zero Install Sync eingerichtet haben, ebenfalls eintragen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelCryptoKeyChangedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Geben Sie den Schlüssel auf anderen Computern mit dem 'Optionen' Fenster ein. Verwenden Sie dort nicht diesen Assistenten, da er nur zur ersten Änderung benötigt wird.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelCryptoKeyNew.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-&amp;Schlüssel:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelCryptoKeyReset.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Neuer Crypto-&amp;Schlüssel:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Geben Sie den Crypto-Schlüssel ein, den Sie zuvor auf diesem und/oder anderen Rechnern verwendet haben:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Der Crypto-Schlüssel wird verwendet, um Ihre Daten lokal zu verschlüsseln, bevor sie an den Server übermittelt werden. Schreiben Sie sich den vorgeschlagenen auf oder wählen Sie einen eigenen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelNewCryptoKeyHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Halten Sie diesen Schlüssel geheim und verwenden Sie etwas anderes für Ihr Passwort. Auf diese Weise kann niemand auf Ihre Daten zugreifen, selbst wenn der Server kompromittiert werden würde.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Passwort:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Klicken Sie auf diesen Link um einen neuen Sync Account in Ihrem Browser anzulegen:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelRegister2.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Nachdem Sie einen Account angelegt, Ihre E-Mail Adresse verifiziert und Ihre Logindaten vermerkt haben haben, klicken Sie auf "Fortsetzen".</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sie sind dabei Ihre lokale Anwendungsliste mit den Daten, die auf dem Sync Server gespeichert sind, zu ersetzen. Alle Änderungen, die Sie lokal gemacht aber noch nicht synchronisiert haben, gehen dabei verloren!</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Die lokale Anwendungsliste wird zurückgesetzt. Sie können nun Zero Install weiter nutzen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Alle Änderungen, die Sie auf anderen Rechnern gemacht aber noch nicht mit diesem synchronisiert haben, gehen hierbei verloren!</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sie sind dabei die Daten, die auf dem Sync Server gespeichert sind, mit Ihrer lokalen Anwendungsliste zu ersetzen. Alle Änderungen, die Sie auf anderen Rechnern gemacht aber noch nicht mit diesem synchronisiert haben, gehen dabei verloren!</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Die Serverdaten werden zurückgesetzt. Sie können nun Zero Install weiter nutzen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelResetServerFinishedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sie sollten die lokalen Daten auf den anderen Rechnern, auf denen Sie Zero Install Sync verwenden, ebenfalls zurücksetzen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Dieser Assistent kann Ihnen dabei helfen, eine Reihe möglicher Sync Probleme zu beheben. Um welchen Sachverhalt geht es?</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>0install.de bietet kostenlose Konten zum Speichern von Sync-Daten an. Alle Daten werden verschlüsselt bevor sie zum Server übermittelt werden. Sie können auch einen eigenen Server verwenden, wenn Sie möchten.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelServerType.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Welchen Server möchten Sie verwenden?</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelSetup.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ist dies der erste Rechner, den Sie für Zero Install Sync einrichten?</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync ist nun eingerichtet und bereit zum Einsatz. Führen Sie diesen Assistenten auf allen anderen Rechnern aus, die Sie mit diesem synchronisieren möchten.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Zero Install Sync nimmt Ihre Anwendungsliste und Desktopintegrationen und gleicht diese automatisch mit Ihren anderen Rechnern ab.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="labelUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Benutzername:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="linkCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Wie richte ich meinen eigenen Sync Server ein?</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="linkRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Registieren</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="optionCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Verwende &amp;eigenen Server:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="optionFileShare.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Verwende Windows &amp;Dateifreigabe:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="optionOfficialServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Verwende den &amp;0install.de Server (empfohlen)</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel ändern</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Konto</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel geändert</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Konto</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Lokale Daten zurücksetzen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Lokale Daten zurücksetzen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto-Schlüssel zurücksetzen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Server zurücksetzen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Server zurücksetzen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync Problembehebung</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Abgeschlossen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="pageSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Sync einrichten</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="textBoxFileShare.HintText" type="System.Drawing.Point, System.Drawing">
+    <value>Verzeichnispfad</value>
+    <comment>Manually overriden.</comment>
+  </data>
+</root>

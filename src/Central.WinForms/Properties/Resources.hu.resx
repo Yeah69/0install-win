@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel" xml:space="preserve">
+    <value>Törölje</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="CommandLineHint" xml:space="preserve">
+    <value>A rendelkezésre álló parancsok listájának megtekintéséhez írja be a '0install --help' parancsot.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Folytatás</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DeployNotification" xml:space="preserve">
+    <value>Kattintson a Zero Install beállításához erre a számítógépre...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="EnterFeedUrl" xml:space="preserve">
+    <value>Kérjük, itt adja meg a Zero Install táp URL-címét:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ForAllUsers" xml:space="preserve">
+    <value>Minden felhasználó számára</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ForCurrentUser" xml:space="preserve">
+    <value>Az aktuális felhasználó számára</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IgnoringDuplicateAppListEntry" xml:space="preserve">
+    <value>A '{0}' alkalmazás duplikált bejegyzésének figyelmen kívül hagyása.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Integrate" xml:space="preserve">
+    <value>Integrált (Start menü stb.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroCommonApp" xml:space="preserve">
+    <value>Közös alkalmazás</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroCommonAppSummary" xml:space="preserve">
+    <value>a szokásos dolgokat teszi</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroCoolApp" xml:space="preserve">
+    <value>Király alkalmazás</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroCoolAppSummary" xml:space="preserve">
+    <value>csinál valami klasszat</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroOtherApp" xml:space="preserve">
+    <value>Egyéb alkalmazás</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroOtherAppSummary" xml:space="preserve">
+    <value>valami mást csinál</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroSubtitlesAddApp" xml:space="preserve">
+    <value>Ha tetszik egy alkalmazás,
+adja hozzá az "Alkalmazásaim" menüponthoz.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroSubtitlesCatalogSearch" xml:space="preserve">
+    <value>Keressen egy alkalmazást a "Katalógusban"...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroSubtitlesIntegrateApp" xml:space="preserve">
+    <value>"Integráljon" egy alkalmazást, hogy
+a Start menübe vagy az asztalra.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroSubtitlesMyApps" xml:space="preserve">
+    <value>Itt kezelheti kedvenc alkalmazásainak listáját.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroSubtitlesRunApp" xml:space="preserve">
+    <value>... és futtasd!</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroSubtitlesThanks" xml:space="preserve">
+    <value>Jó szórakozást!</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IntroSubtitlesWelcome" xml:space="preserve">
+    <value>A Zero Install funkcióval nem kell alkalmazásokat telepítenie.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="MachineWideMode" xml:space="preserve">
+    <value>Gépi üzemmód</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ModifyIntegration" xml:space="preserve">
+    <value>Integráció módosítása</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="MyAppsAdd" xml:space="preserve">
+    <value>Hozzáadás az "Alkalmazásaimhoz"</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="MyAppsAdded" xml:space="preserve">
+    <value>Hozzáadva az "Alkalmazásaim" menüponthoz.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="MyAppsAddedAndIntegrate" xml:space="preserve">
+    <value>Hozzáadva a "Saját alkalmazásokhoz" és integrálva az asztali környezetbe.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="PortableDirNotEmptyAsk" xml:space="preserve">
+    <value>A {0} könyvtár nem üres.
+Biztos, hogy a Zero Install hordozható verzióját akarja oda elhelyezni?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="PortableMode" xml:space="preserve">
+    <value>Hordozható üzemmód</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>&amp;Eltávolítás</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="RemoveSelectedEntries" xml:space="preserve">
+    <value>El akarja távolítani a {0} kijelölt bejegyzéseket a listából?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Fuss</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="RunWithOptions" xml:space="preserve">
+    <value>Futtatás &amp;opciókkal</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Szeretné elmenteni az elvégzett módosításokat?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveChangesNo" xml:space="preserve">
+    <value>Nem
+Változások elvetése</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveChangesYes" xml:space="preserve">
+    <value>Igen
+Változások mentése</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Keresés</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SelfUpdateNotification" xml:space="preserve">
+    <value>Kattintson a Zero Install v{0} frissítéshez...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SyncCompleteSetupFirst" xml:space="preserve">
+    <value>Először be kell fejeznie a Szinkronizálás beállításait.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SyncCredentialsInvalid" xml:space="preserve">
+    <value>A megadott felhasználónév és/vagy jelszó helytelen.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SyncCryptoKeyInvalid" xml:space="preserve">
+    <value>A megadott kriptokulcs helytelen.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SyncReplaceConfigAsk" xml:space="preserve">
+    <value>Szeretné visszaállítani a szinkronizálási beállításokat, és mindent elölről kezdeni?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SyncReplaceConfigNo" xml:space="preserve">
+    <value>Nem
+a meglévő beállítások szerkesztése</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SyncReplaceConfigYes" xml:space="preserve">
+    <value>Igen
+kezdjük elölről</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SyncServerDataDamaged" xml:space="preserve">
+    <value>A szinkronizáló kiszolgálón jelenleg tárolt adatok sérültek.
+A kiszolgálón tárolt adatokat úgy cserélheti ki, hogy úgy dönt, hogy nem emlékszik a Crypto kulcsra.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="UnableToDownloadCatalog" xml:space="preserve">
+    <value>Nem sikerült letölteni az alkalmazáskatalógust.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="UnableToLoadFeedForApp" xml:space="preserve">
+    <value>Nem sikerült betölteni a '{0}' alkalmazás bejegyzést.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="UnencryptedSyncServer" xml:space="preserve">
+    <value>Biztos, hogy titkosítatlan kapcsolatot szeretne használni a Sync-kiszolgálóval?
+A titkosított kapcsolatok a https:// előtagot használják.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>&amp;Update</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="UpdateAllCleanWillRemove" xml:space="preserve">
+    <value>Ez automatikusan eltávolítja a gyorsítótárból azokat az implementációkat, amelyekre a frissítés után már nincs szükség. Folytatás?
+Fontos: A korábban "Futtatott" alkalmazások, amelyeket nem adott hozzá a "Saját alkalmazások"-hoz, szintén eltávolításra kerülnek a gyorsítótárból.  Online állapotban kell lennie, ha úgy dönt, hogy újra futtatni kívánja őket.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Dolgozom...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+</root>

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Szeretném &amp;megváltoztatni a kriptokulcsomat</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonForgotKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Forgot key</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ki akarom cserélni a &amp;local adataimat</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A &amp;kiszolgálón tárolt adatok megsérültek</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonSetupFirst.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Igen, ez az első számítógép</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="buttonSetupSubsequent.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Nem, én már beállítottam &amp;más számítógépeket</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A Zero Install Sync nem futtatható más számítógépeken, amíg ez a folyamat fut.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kérjük, adja meg az alábbiakban a Szinkronizálási kiszolgáló bejelentkezési adatait:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto &amp;key:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChange.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Új kripto &amp; kulcs:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A kriptokulcsot megváltoztatták. Most meg kell adnia az új kulcsot az összes többi számítógépen, amelyet már beállított a Zero Install Sync számára.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyChangedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Adja meg a kulcsot más számítógépeken a "Beállítások" ablakban. Ott ne használja ezt a varázslót, mivel ez csak a kezdeti módosításhoz szükséges.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyNew.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Crypto &amp;key:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelCryptoKeyReset.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Új kripto &amp; kulcs:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kérjük, adja meg a korábban ezen és/vagy más számítógépeken használt titkosítási kulcsot:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A kriptokulcsot az adatok helyi titkosítására használják, mielőtt továbbítanák azokat a kiszolgálónak. Írja le a javasoltat, vagy válasszon sajátot.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelNewCryptoKeyHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Tartsa titokban ezt a kulcsot, és használjon valami más jelszót. Így senki sem férhet hozzá az adataihoz, még akkor sem, ha a szerver veszélybe kerülne.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelPassword.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;Password:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kattintson az alábbi linkre egy új Sync-fiók létrehozásához a böngészőben:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelRegister2.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Miután létrehozott egy fiókot, ellenőrizte az e-mail címét és feljegyezte a bejelentkezési adatait, kattintson a 'Tovább' gombra.
+</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A helyi alkalmazáslistát a Szinkronizáló kiszolgálón tárolt adatokkal kívánja helyettesíteni. A helyben elvégzett, de még nem szinkronizált módosítások elvesznek!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A helyi alkalmazáslista visszaállítása folyamatban van. Most már folytathatja a Zero Install használatát.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Minden olyan módosítás, amelyet más számítógépeken végeztél, de még nem szinkronizáltál ezzel a számítógéppel, elveszik!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A Szinkronizáló kiszolgálón tárolt adatokat a helyi alkalmazáslistával kívánja helyettesíteni. A más számítógépeken végrehajtott, de ezzel a számítógéppel még nem szinkronizált módosítások elvesznek!</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A kiszolgáló adatai visszaállításra kerülnek. Most már folytathatja a Zero Install használatát.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetServerFinishedHint.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A Zero Install Sync-et használó többi számítógépen is visszaállíthatja a helyi adatokat.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ez a varázsló számos lehetséges szinkronizálási probléma megoldásában segíthet. Milyen problémát szeretne megoldani?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A 0install.de ingyenes fiókokat biztosít a Sync-adatok tárolásához. Minden adatot helyben titkosítunk, mielőtt a szerverre továbbítanánk. Ha szeretné, használhatja helyette saját szerverét a tároláshoz.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelServerType.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Melyik szervert szeretné használni?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetup.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Ez az első számítógép, amelyet a Zero Install Sync számára beállít?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A Zero Install Sync mostantól be van állítva és használatra kész. Futtassa ezt a varázslót bármely más számítógépen, amelyet szinkronban szeretne tartani ezzel a számítógéppel.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A Zero Install Sync átveszi az alkalmazáslistát és az asztali integrációkat, és automatikusan átviszi azokat a többi számítógépre.</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="labelUsername.Text" type="System.Drawing.Point, System.Drawing">
+    <value>&amp;username:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Hogyan állíthatom be a saját Sync-kiszolgálómat?</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="linkRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Regisztráció</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionCustomServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Használjon c&amp;ustom szervert:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionFileShare.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Windows &amp;file megosztás használata:</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="optionOfficialServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A &amp;0install.de szerver használata (ajánlott)</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageChangeCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kripto kulcs módosítása</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageCredentials.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Szinkronizálási számla</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageCryptoKeyChanged.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A kriptokulcs megváltozott</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageExistingCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kriptokulcs</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageNewCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Kriptokulcs</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageRegister.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Szinkronizálási számla</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetClient.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Helyi adatok visszaállítása</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetClientFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Helyi adatok visszaállítása</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetCryptoKey.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Rejtjelkulcs visszaállítása</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetServer.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Szinkronizálási kiszolgáló alaphelyzetbe állítása</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetServerFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Szinkronizálási kiszolgáló alaphelyzetbe állítása</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageResetWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Szinkronizációs hibaelhárítás</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageSetupFinished.Text" type="System.Drawing.Point, System.Drawing">
+    <value>A szinkronizálás beállítása befejeződött</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="pageSetupWelcome.Text" type="System.Drawing.Point, System.Drawing">
+    <value>Szinkronizálás beállítása</value>
+    <comment>Automatically Translated</comment>
+  </data>
+  <data name="textBoxFileShare.HintText" type="System.Drawing.Point, System.Drawing">
+    <value>Könyvtár elérési útvonal</value>
+    <comment>Automatically Translated</comment>
+  </data>
+</root>
