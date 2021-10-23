@@ -124,7 +124,7 @@
     <value>Konnte kein temporäres Verzeichnis für den Benutzer '{0}' in '{1}' anlegen.</value>
   </data>
   <data name="FailedToRemoveTempDir" xml:space="preserve">
-    <value>Konnte das temporäre Verzeichnis '{1}' (für den Benutzer '{0}' angelegt) nicht enfernen. </value>
+    <value>Konnte das temporäre Verzeichnis '{1}' (für den Benutzer '{0}' angelegt) nicht enfernen.</value>
   </data>
   <data name="NoPortableMode" xml:space="preserve">
     <value>Der Dienst kann nicht im Portablen Modus laufen!</value>
